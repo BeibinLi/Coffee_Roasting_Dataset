@@ -10,9 +10,6 @@ import pandas as pd
 
 file_name = "employee.csv"
 
-# df = pd.read_csv("roastery.csv")
-# sites = [{"name": f"Roastery {name}", "city": city, "country": country} for name, city, country in zip(df["Roastery ID"], df["City"], df["Country"])]
-
 sites = []
 with open("roastery_countries.json", "r", encoding="utf-8") as f:
     for line in f:
