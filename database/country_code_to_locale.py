@@ -1,0 +1,57 @@
+country_code_to_locale = {
+    'CN': 'zh_CN',
+    'US': 'en_US',
+    'GB': 'en_GB',
+    'CA': 'en_CA',  # Default to English for Canada, but note that French (fr_CA) is also common
+    'AU': 'en_AU',
+    'IN': 'en_IN',  # Default to English for India, but there are many languages in India like Hindi (hi_IN)
+    'FR': 'fr_FR',
+    'DE': 'de_DE',
+    'IT': 'it_IT',
+    'ES': 'es_ES',
+    'JP': 'ja_JP',
+    'KR': 'ko_KR',
+    'BR': 'pt_BR',
+    'RU': 'ru_RU',
+    'MX': 'es_MX',
+    'AR': 'es_AR',
+    'BE': 'nl_BE',  # Dutch is prevalent, but French (fr_BE) is also spoken
+    'CH': 'de_CH',  # German is prevalent, but French (fr_CH), Italian (it_CH) are also spoken
+    'NL': 'nl_NL',
+    'SE': 'sv_SE',
+    'NO': 'no_NO',
+    'FI': 'fi_FI',
+    'DK': 'da_DK',
+    'PL': 'pl_PL',
+    'CZ': 'cs_CZ',
+    'AT': 'de_AT',
+    'HU': 'hu_HU',
+    'GR': 'el_GR',
+    'TR': 'tr_TR',
+    'IL': 'he_IL',
+    'SA': 'ar_SA',
+    'ZA': 'en_ZA',
+    'NZ': 'en_NZ',
+    'SG': 'en_SG',  # Default to English, but there are other languages like Malay (ms_SG), Tamil (ta_SG)
+    'MY': 'ms_MY',  # Malay is prevalent, but Chinese (zh_MY) and Tamil (ta_MY) are also spoken
+    'ID': 'id_ID',
+    'PH': 'fil_PH',  # Filipino, but English (en_PH) is also commonly spoken
+    'TH': 'th_TH',
+    'VN': 'vi_VN',
+    'AE': 'ar_AE',
+    'PT': 'pt_PT',
+    'IE': 'en_IE',
+    'HK': 'zh_HK',
+    'TW': 'zh_TW',
+    'EG': 'ar_EG',
+    'CU': 'es_CU',
+    'MA': 'ar_MA',
+    'KE': 'en_KE',
+    'PE': 'es_PE',
+    'CR': 'es_CR',
+    'IS': 'is_IS',
+    'NG': 'en_NG',
+    'LB': 'ar_LB',
+    'CO': 'es_CO',
+    # ... add more as needed
+}
