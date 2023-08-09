@@ -42,6 +42,6 @@ def plot_on_map(csv_filename):
 
     # Save the map to an HTML file
     os.makedirs('../images', exist_ok=True)
-    m.save('../images/suppliers.html')
+    m.save('../images/supplier_on_map.html')
 
-plot_on_map('../database/suppliers.csv')
+plot_on_map('../database/supplier.csv')
