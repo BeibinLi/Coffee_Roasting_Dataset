@@ -4,15 +4,11 @@ import csv
 from faker import Faker
 import pycountry
 from country_code_to_locale import country_code_to_locale
+from constant import customer_sites
 
 file_name = "customer.csv"
 random.seed(23)
 
-sites = []
-with open("customer_names.json", "r", encoding="utf-8") as f:
-    for line in f:
-        data = json.loads(line)
-        sites.append(data)
 
 payment_type = ["credit", "debit", "cash"]
 roast_type = ["light", "dark"]
@@ -30,7 +26,7 @@ with open(file_name, 'w', newline='', encoding="utf-8") as file:
                     'phone_number', 'address', 'city', 'country',
                     'email', 'fav_payment_type',  'fav_subscription_type'])
 
-    for site in sites:
+    for site in customer_sites:
         country = pycountry.countries.search_fuzzy(site['country'])[0]
         locale = country_code_to_locale[country.alpha_2]
         try:

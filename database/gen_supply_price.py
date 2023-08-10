@@ -2,6 +2,7 @@ import csv
 import math
 import random
 import matplotlib.pyplot as plt
+from constant import num_years, num_suppliers
 
 def generate_price_curve(supplier_id, base_price, amplitude, frequency, phase_shift, years=5):
     prices = []
@@ -28,12 +29,12 @@ def generate_price_curve(supplier_id, base_price, amplitude, frequency, phase_sh
     return prices
 
 def generate_supply_history_csv(file_name, number_of_suppliers=100, years=5):
-    with open(file_name, 'w', newline='') as file:
+    with open(file_name, 'w', newline='', encoding="utf-8") as file:
         writer = csv.writer(file)
         # Write the header
         writer.writerow(['supplier_id', 'month', 'year', 'price_per_unit'])
         # Write the data rows
-        for supplier_id in range(number_of_suppliers):
+        for supplier_id in range(1, number_of_suppliers + 1):
             # Generate random parameters for the price curve
             base_price = random.uniform(2.0, 5.0)
             amplitude = random.uniform(0.2, 0.5)
@@ -43,11 +44,11 @@ def generate_supply_history_csv(file_name, number_of_suppliers=100, years=5):
             prices = generate_price_curve(supplier_id, base_price, amplitude, frequency, phase_shift, years)
             writer.writerows(prices)
 
-        plt.plot(list(range(len(prices))), [price for _, _, _, price in prices])
-        plt.show()
+        # plt.plot(list(range(len(prices))), [price for _, _, _, price in prices])
+        # plt.show()
 
 
 random.seed(3)
 file_name = 'supply_price_history.csv'
-generate_supply_history_csv(file_name, number_of_suppliers=130, years=10)
+generate_supply_history_csv(file_name, number_of_suppliers=num_suppliers, years=num_years)
 print(f'{file_name} has been created with simulated supply history price data.')

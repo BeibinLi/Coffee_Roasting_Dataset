@@ -1,6 +1,7 @@
 import csv
 import random
 from faker import Faker
+from constant import num_suppliers
 
 fake = Faker()
 
@@ -26,7 +27,7 @@ def generate_supplier_csv(file_name, number_of_records=100):
               ("Vietnam", "Ho Chi Minh City"), ("Colombia", "Armenia")]
 
     # Create and write the CSV file
-    with open(file_name, 'w', newline='') as file:
+    with open(file_name, 'w', newline='', encoding="utf-8") as file:
         writer = csv.writer(file)
         # Write the header
         writer.writerow(['supplier_id', 'contact_name', 'country', 'city', 'phone_number', 'address', 'max_purchase_this_year', 'unit_price', 'min_purchase_this_year'])
@@ -38,7 +39,7 @@ def generate_supplier_csv(file_name, number_of_records=100):
             fake = Faker(LCID)
 
             writer.writerow([
-                str(i),
+                str(i + 1),
                 fake.name(),
                 country,
                 city,
@@ -53,5 +54,5 @@ def generate_supplier_csv(file_name, number_of_records=100):
 file_name = 'supplier.csv'
 
 random.seed(1)
-generate_supplier_csv(file_name, number_of_records=130)
+generate_supplier_csv(file_name, number_of_records=num_suppliers)
 print(f'{file_name} has been created with simulated supplier data.')

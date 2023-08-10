@@ -7,14 +7,9 @@ from country_code_to_locale import country_code_to_locale
 import numpy as np
 from scipy.stats import norm
 import pandas as pd
+from constant import roastery_sites
 
 file_name = "employee.csv"
-
-sites = []
-with open("roastery_countries.json", "r", encoding="utf-8") as f:
-    for line in f:
-        data = json.loads(line)
-        sites.append(data)
 
 positions = ['Barista', 'Manager', 'Accountant', 'Roaster', 'Cleaner', 'Cashier']
 salary_ranges = {
@@ -43,7 +38,7 @@ with open(file_name, 'w', newline='', encoding="utf-8") as file:
     # Write the header
     writer.writerow(['name', 'date_of_birth', 'position', 'date_of_hire', 'salary', 'performance_rating', 'site', 'city', 'country'])
 
-    for roastery_id, site in enumerate(sites):
+    for roastery_id, site in enumerate(roastery_sites):
         country = pycountry.countries.search_fuzzy(site['country'])[0]
         locale = country_code_to_locale[country.alpha_2]
         try:

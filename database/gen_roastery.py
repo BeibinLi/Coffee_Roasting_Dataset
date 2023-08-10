@@ -10,7 +10,7 @@ from country_code_to_locale import country_code_to_locale
 import numpy as np
 from scipy.stats import norm
 import pdb
-
+from constant import roastery_sites, num_products
 
 def generate(csv_file_path):
     files = glob.glob("*")
@@ -75,16 +75,10 @@ def generate(csv_file_path):
         cost += np.random.normal(0, 0.05)
         return round(cost, 2)
         
-    # Roasting Sites:
-    sites = []
-    with open("roastery_countries.json", "r", encoding="utf-8") as f:
-        for line in f:
-            data = json.loads(line)
-            sites.append(data)
 
     # Sample data for the CSV file
     rows = []
-    for i, site in enumerate(sites):
+    for i, site in enumerate(roastery_sites):
         country_obj = pycountry.countries.search_fuzzy(site['country'])[0]
         locale = country_code_to_locale[country_obj.alpha_2]
 
