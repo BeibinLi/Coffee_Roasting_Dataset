@@ -1,5 +1,6 @@
 from gurobipy import GRB, Model
 from DistributionNetwork import DistributionNetwork
+import os
 import pdb
 
 class CoffeeDistributionOptimizer:
@@ -70,7 +71,6 @@ class CoffeeDistributionOptimizer:
         # TODO: double check these constraints
         # Roasting constraints (e.g., specific roasting methods for certain bean types)
         for roastery in self.network.roasteries:
-            # pdb.set_trace()
             for coffee_type in self.network.cafes[0].coffee_demand.keys():  # Assuming all cafes have the same coffee types
                 if not roastery.validate_roasting_constraints(coffee_type, roastery.get_roasting_constraints(coffee_type)):
                     self.model.addConstr(sum(self.variables[roastery.name, cafe.name, coffee_type] for cafe in self.network.cafes) == 0,
@@ -130,3 +130,21 @@ class CoffeeDistributionOptimizer:
         self.set_objective()
         self.add_constraints()
         self.optimize()
+
+
+    def log_solution(self, output_file: str, header: str=""):
+        """
+        Logs the optimal solution by printing the values of the decision variables.
+        """
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        f = open(output_file, "w", encoding="utf-8")
+        f.write(header + "\n")
+        if self.model.status != GRB.OPTIMAL:
+            f.write("No optimal solution found. Cannot log the solution.")
+            return
+
+        print("\nOptimal Solution:")
+        for var in self.model.getVars():
+            if var.x != 0:  # Only print non-zero variables
+                f.write(f"{var.varName}: {var.x}\n")
+        f.close()

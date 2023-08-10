@@ -38,6 +38,10 @@ def generate_supplier_csv(file_name, number_of_records=100):
             LCID = country_name_to_LCID[country]
             fake = Faker(LCID)
 
+            # We don't want to supply too much. So, the optimizer will 
+            # just always use the cheapest supplier + shipping cost.
+            supply_num = random.uniform(1, 100) if random.random() < 0.5 else random.uniform(100, 100000)
+
             writer.writerow([
                 str(i + 1),
                 fake.name(),
@@ -45,7 +49,7 @@ def generate_supplier_csv(file_name, number_of_records=100):
                 city,
                 fake.phone_number(), # phone_number
                 fake.street_address(), # address
-                random.randint(100, 100000), # max_purchase_this_year
+                int(supply_num), # max_purchase_this_year
                 round(random.uniform(1.5, 5.0), 2) # unit_price
             ])
 
