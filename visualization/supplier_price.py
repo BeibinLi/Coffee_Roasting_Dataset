@@ -13,7 +13,7 @@ if args.id is None and args.name is None:
 
 if args.id is None:
     # Get the supplier ID from the name
-    suppliers = pd.read_csv('../database/suppliers.csv')
+    suppliers = pd.read_csv('database/supplier.csv')
     rows = (suppliers['contact_name'] == args.name)
     
     if sum(rows) == 0:
@@ -26,7 +26,7 @@ else:
     supplier_id = args.id
 
 # Load the data
-df = pd.read_csv('../database/supply_price_history.csv')
+df = pd.read_csv('database/supply_price_history.csv')
 
 # Filter data for the given supplier
 df_filtered = df[df['supplier_id'] == supplier_id]
@@ -46,5 +46,5 @@ plt.grid(True)
 plt.tight_layout()
 
 # Show the plot
-os.makedirs('../images', exist_ok=True)
-plt.savefig(f'../images/supplier_price_{supplier_id}.png')
+os.makedirs('images', exist_ok=True)
+plt.savefig(f'images/supplier_price_{supplier_id}.png')

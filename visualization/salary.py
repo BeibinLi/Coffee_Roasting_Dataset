@@ -4,7 +4,7 @@ import os
 
 gap = 1000
 # Read the CSV file
-df = pd.read_csv('../database/employee.csv')
+df = pd.read_csv('database/employee.csv')
 
 min_salary = df['salary'].min() // gap * gap
 max_salary = (df['salary'].max() + gap - 1) // gap * gap 
@@ -25,5 +25,5 @@ plt.grid(axis='y')
 plt.tight_layout()
 #plt.show()
 
-os.makedirs('../images', exist_ok=True)
-plt.savefig('../images/salary.png')
+os.makedirs('images', exist_ok=True)
+plt.savefig('images/salary.png')

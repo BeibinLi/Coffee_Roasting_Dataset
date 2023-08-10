@@ -23,3 +23,6 @@ throughput_test/**
 *.gurobi
 *.pyc
 *.sqlite
+
+
+images/

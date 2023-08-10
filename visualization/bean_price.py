@@ -8,7 +8,7 @@ parser.add_argument('--name', type=str, default=None, required=True, help='Bean 
 args = parser.parse_args()
 
 # Read the sell_price_history.csv data
-df = pd.read_csv('../database/sell_price_history.csv')
+df = pd.read_csv('database/sell_price_history.csv')
 
 bean_name = args.name.lower()
 filtered_data = df[df['source_bean_type'].str.lower() == bean_name]
@@ -38,5 +38,5 @@ plt.legend()
 plt.tight_layout()
 plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 
-os.makedirs('../images', exist_ok=True)
-plt.savefig(f"../images/bean_price_{bean_name}.png")
+os.makedirs('images', exist_ok=True)
+plt.savefig(f"images/bean_price_{bean_name}.png")
