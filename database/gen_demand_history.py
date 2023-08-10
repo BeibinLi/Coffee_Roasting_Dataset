@@ -2,7 +2,7 @@ import random
 import csv
 import numpy as np
 import pandas as pd
-from constant import num_cafes, num_years, num_products
+from constant import num_cafes, num_years, num_products, last_year
 
 def generate_demand_price_history_csv(file_name, num_cafe=100, 
                                       number_of_products=35, years=5):
@@ -13,7 +13,7 @@ def generate_demand_price_history_csv(file_name, num_cafe=100,
         # Write the data rows
         for cafe_id in range(1, num_cafe + 1):
             for product_id in range(1, number_of_products + 1):
-                for year in range(2024 - years, 2024):
+                for year in range(last_year - years, last_year):
                     for month in range(12):
                         quantity = np.random.randint(10, 500) # Random quantity between 10 and 500
                         writer.writerow([cafe_id, product_id, month + 1, year + 1, quantity])

@@ -45,7 +45,7 @@ def generate_supplier_csv(file_name, number_of_records=100):
                 city,
                 fake.phone_number(), # phone_number
                 fake.street_address(), # address
-                random.randint(10000, 100000), # max_purchase_this_year
+                random.randint(100, 100000), # max_purchase_this_year
                 round(random.uniform(1.5, 5.0), 2) # unit_price
             ])
 

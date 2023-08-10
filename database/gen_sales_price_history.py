@@ -1,8 +1,7 @@
 import random
 import csv
 import numpy as np
-from constant import num_years, num_products
-
+from constant import num_years, num_products, last_year
 
 
 
@@ -40,7 +39,7 @@ def generate_sell_price_history_csv(file_name, number_of_products=100, years=5):
 
             curr_price = random.uniform(5.0, 15.0)
             # Increment to slightly increase the price over time
-            for year in range(2023 - years, 2023):
+            for year in range(last_year - years, last_year):
                 for month in range(1, 13):
                     # Add a slight increase to the base price and random minor fluctuations
                     

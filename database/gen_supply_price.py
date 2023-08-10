@@ -2,14 +2,14 @@ import csv
 import math
 import random
 import matplotlib.pyplot as plt
-from constant import num_years, num_suppliers
+from constant import num_years, num_suppliers, last_year
 
 def generate_price_curve(supplier_id, base_price, amplitude, frequency, phase_shift, years=5):
     prices = []
     
     inc_trend = 0
     
-    for year in range(2023 - years, 2023):
+    for year in range(last_year - years, last_year):
         for month in range(1, 13):
             if random.random() < 0.05 or (year == 2020 and random.random() < 0.3):
                 # we only raise price about every 20 months.

@@ -20,7 +20,8 @@ num_cafes = len(customer_sites)
 num_roasteries = len(roastery_sites)
 
 num_products = 33
-num_years = 10
 num_suppliers = 50
+num_years = 10
+last_year = 2024
 
 random.seed(100) # in case we forgot to set seed in the main code.

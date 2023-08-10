@@ -10,7 +10,7 @@ from country_code_to_locale import country_code_to_locale
 import numpy as np
 from scipy.stats import norm
 import pdb
-from constant import roastery_sites, num_products
+from constant import roastery_sites, num_products, last_year
 
 def generate(csv_file_path):
     files = glob.glob("*")
@@ -115,6 +115,6 @@ def generate(csv_file_path):
         writer.writerows(rows)
 
 
-for year in range(2010, 2024):
+for year in range(2010, last_year):
     random.seed(year)
     generate(csv_file_path=f'roastery_{year}.csv')

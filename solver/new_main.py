@@ -23,8 +23,12 @@ demand_history_df = pd.read_csv(base_dir + 'demand_history.csv')
 product_ids = demand_history_df.product_id.unique()
 demand_df = demand_history_df[(demand_history_df.year == year) & (demand_history_df.month == month)]
 customer_df = pd.read_csv(base_dir + 'customer.csv')
-
 cafe_map = {} # cafe id: cafe object
+
+
+income = 0
+sell_price_df = pd.read_csv(base_dir + f'sell_price_history.csv')
+sprice_df = sell_price_df[(sell_price_df.year == year) & (sell_price_df.month == month)]
 for index, row in demand_df.iterrows():
     customer_id = row["customer_id"]
     if customer_id not in cafe_map:
@@ -34,6 +38,9 @@ for index, row in demand_df.iterrows():
                                     contact=cafe_row["contact_name"])
     cafe_map[customer_id].set_coffee_demand(str(row["product_id"]), 
                                             row["quantity"])
+    income += sprice_df[(sprice_df.roasting_id == row["product_id"])].iloc[0]["price_per_unit"] * row["quantity"]
+
+print(f"Total income: {income}")
 
 
 # Read Roasteries from CSV
@@ -61,17 +68,19 @@ network = DistributionNetwork()
 [network.add_cafe(c) for c in cafe_map.values()]
 
 # Set shipping costs for suppliers to roasteries
-# TODO: add supply prices from supply_price_history.csv 
+purchase_price_df = pd.read_csv(base_dir + f'supply_price_history.csv')
+price_df = purchase_price_df[(purchase_price_df.year == year) & (purchase_price_df.month == month)]
 for i_r, r in roastery_map.items():
     for i_s, s in supplier_map.items():
         try:
-            cost = roastery_df.loc[roastery_df["Roastery ID"] == i_r, f"ship_cost_supply_{i_s}"].item()
+            cost = roastery_df.loc[roastery_df["Roastery ID"] == i_r, 
+                                   f"ship_cost_supply_{i_s}"].item()
+            cost += price_df[price_df.supplier_id == i_s].iloc[0]["price_per_unit"]
         except:
             pdb.set_trace()
         network.set_shipping_cost_from_supplier_to_roastery(s, r, float(cost))
 
 # Set shipping costs for roasteries to cafes
-# TODO: minus sales price from sell_price_history.csv
 for i_r, r in roastery_map.items():
     for i_c, c in cafe_map.items():
         cost = roastery_df.loc[roastery_df["Roastery ID"] == i_r, f"ship_cost_customer_{i_c}"].item()
@@ -80,3 +89,18 @@ for i_r, r in roastery_map.items():
 # Create and run the optimizer
 optimizer = CoffeeDistributionOptimizer(network)
 optimizer.run()
+
+total_cost = optimizer.model.objVal
+
+
+salary_df = pd.read_csv(base_dir + 'employee.csv') 
+total_salary = salary_df["salary"].sum() / 12.0
+
+
+profit = income - total_cost - total_salary
+
+print("Total Revenue:", income)
+print("Purchasing and Shipping Cost:", total_cost)
+print("Salary:", total_salary)
+print("Total Profit:", profit)
+

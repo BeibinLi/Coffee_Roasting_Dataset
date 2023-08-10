@@ -1,51 +1,51 @@
 supplier_id,contact_name,country,city,phone_number,address,max_purchase_this_year,unit_price
-1,Laura Smith,Jamaica,Blue Mountains,001-560-852-8435x64388,486 Tanya Dam Suite 496,84606,4.47
-2,Farah Yuniar,Indonesia,Jakarta,+62 (0532) 532 7845,Gang Sadang Serang No. 57,43432,1.91
-3,Eric Johnson,Vietnam,Ho Chi Minh City,327-680-9661x4169,97022 Bennett Place,71898,3.78
-4,Sophia Viana,Brazil,Sao Paulo,+55 41 9118-4227,"Distrito de da Conceição, 52",22302,3.21
-5,Brandi Joseph,Ethiopia,Yirgacheffe,001-454-276-9650x72382,757 Valdez Lakes,66723,3.63
-6,Shelby Evans,Vietnam,Hanoi,+1-684-856-4467,0786 Joyce Valleys Apt. 972,68377,2.43
-7,Josefa Hernández,Colombia,Medellin,+573243998531,Cl. 137S # 7-98,87483,4.81
-8,王雪梅,China,Yunnan,13275545096,哈尔滨路s座,14009,1.58
-9,Danielle Delacruz,Vietnam,Hanoi,644.397.0607x827,99613 Reed Lock,59965,3.9
-10,Hasna Firgantoro,Indonesia,Java,+62 (250) 131 8077,Gang Rawamangun No. 9,13806,3.35
-11,David Patel,Vietnam,Ho Chi Minh City,916-989-0319,97592 Zuniga Cliff,74987,3.44
-12,张淑英,China,Guangdong,13432224569,李街x座,40260,3.87
-13,Richard Bell,Vietnam,Ho Chi Minh City,530-749-7203x68939,6197 Juan Park Apt. 685,47982,4.74
-14,Asmuni Mansur,Indonesia,Java,+62 (0381) 899-9475,Gang Cikapayang No. 202,82935,4.73
-15,Kevin Norman,Ethiopia,Addis Ababa,225.316.0959x5343,11552 Kelly Turnpike Suite 442,34367,3.7
-16,Jonathan Proctor,Ethiopia,Sidamo,001-466-246-8753x0466,6423 Lisa Ports Apt. 925,25845,4.1
-17,"Dian Tarihoran, S.Psi",Indonesia,Java,+62 (58) 666-4647,Jl. Medokan Ayu No. 228,76547,4.41
-18,Valentina Pires,Brazil,Sao Paulo,+55 21 7369-0039,"Trecho Nogueira, 43",49763,2.49
-19,Deisy Carmona Sánchez,Colombia,Armenia,798 67 44,Cl. 9G # 69-5,76228,2.88
-20,Leidy Hernández Medina,Colombia,Bogota,573105466520,Carrera 199I # 62-39 Este,72944,2.35
-21,Keith Wood,Ethiopia,Yirgacheffe,303.518.0031,197 Tammy Glen Apt. 355,64304,3.83
-22,冉凯,China,Guangdong,15234786886,太原街G座,81932,4.59
-23,许琴,China,Guangdong,13730538530,成都路u座,21333,3.04
-24,Amy Gray,Ethiopia,Addis Ababa,(776)689-9114x80383,577 Danielle Alley,31456,3.32
-25,Lee Johnson,Ethiopia,Yirgacheffe,501-632-7630x6299,54232 Hooper Underpass,58565,3.21
-26,Christine Luna,Vietnam,Hanoi,797-422-9085x442,7741 Henry Causeway,71514,1.65
-27,Adam Murphy,Ethiopia,Yirgacheffe,3977653439,56744 Allen Plain Apt. 425,94824,2.1
-28,Juan Romero Sierra,Colombia,Medellin,573043870214,Avenida Bolívar # 57-2 Sur,11612,4.2
-29,Laura Trujillo Guerra,Colombia,Medellin,573010261440,Calle 195Q Bis Q # 5-1 Sur,63012,3.3
-30,刘畅,China,Guangdong,13244734484,马鞍山路y座,70179,4.68
-31,Mary Hines,Vietnam,Hanoi,5164949332,293 Ross Centers Apt. 565,60290,4.24
-32,Elizabeth Campbell,Jamaica,Blue Mountains,+1-924-407-3619x75644,7579 Rodriguez Via,77984,4.22
-33,Pietra Novaes,Brazil,Sao Paulo,71 8324 6725,"Núcleo Moraes, 68",65848,4.82
-34,Juan Osorio,Colombia,Armenia,+57 323 028 05 39,Carrera 196 # 6B-9,57806,3.49
-35,Miguel Vieira,Brazil,Sao Paulo,+55 21 0857 3232,"Sítio Caldeira, 333",76154,2.95
-36,林冬梅,China,Guangdong,14524573689,马鞍山街v座,64319,2.71
-37,赵丽,China,Yunnan,18605920818,长沙路V座,70050,3.6
-38,Astrid Ana Burbano,Colombia,Medellin,+573103323594,Carrera 40 # 67-74 Este,93279,2.12
-39,陈辉,China,Fujian,13820578841,荆门街g座,22006,4.29
-40,Adika Andriani,Indonesia,Sumatra,+62 (63) 878 2021,Jl. Kendalsari No. 891,14254,4.45
-41,Ir. Vinsen Prasetya,Indonesia,Jakarta,(0364) 694 4878,Gang Dipatiukur No. 0,20909,4.54
-42,Michael Ramos,Vietnam,Ho Chi Minh City,001-498-862-4238x4043,6683 Garza Road,11908,4.14
-43,Salimah Wibisono,Indonesia,Sumatra,+62-063-549-2919,Gg. Jend. Sudirman No. 0,42710,2.44
-44,张雷,China,Fujian,18727723604,澳门路A座,55144,2.52
-45,潘凯,China,Fujian,18021381108,张街B座,30922,2.39
-46,孙建国,China,Fujian,18003279296,淮安街a座,96069,2.46
-47,Erica Smith,Ethiopia,Sidamo,770.859.5027,20478 Rowland Stream Apt. 052,69598,3.96
-48,Ricardo Bernardo Carmona,Colombia,Armenia,3115289480,Avenida calle 6ª # 6-60 Este,72098,1.9
-49,Tricia Mahoney DVM,Ethiopia,Sidamo,+1-270-220-7913x76682,864 Darren Lane,60666,2.7
-50,Alice Campos,Brazil,Sao Paulo,(041) 6964-8997,"Aeroporto de Martins, 330",43871,1.88
+1,Michele Anthony,Jamaica,Blue Mountains,915.433.7988,6978 Cook Villages,74706,4.47
+2,Dr. Shania Samosir,Indonesia,Jakarta,+62-732-687-3325,Gang Pelajar Pejuang No. 9,33532,1.91
+3,Anna Martin,Vietnam,Ho Chi Minh City,891-459-3551x266,4461 Linda Cliffs Suite 312,61998,3.78
+4,Heloísa Nogueira,Brazil,Sao Paulo,+55 (084) 1861 9370,"Colônia Rezende, 772",12402,3.21
+5,Mr. William Fischer,Ethiopia,Yirgacheffe,001-246-555-8917x29354,361 Joshua Glen Apt. 545,56823,3.63
+6,Jason Swanson,Vietnam,Hanoi,601.303.0018,9202 Rodriguez Highway,91304,3.06
+7,Rosa Rojas Saavedra,Colombia,Medellin,(+57) 302 921 06 84,Cr. 84 # 82-68,77583,4.81
+8,田燕,China,Yunnan,15197625339,柳路B座,4109,1.58
+9,Haley Briggs,Vietnam,Hanoi,001-952-511-5478x792,036 Timothy Common Apt. 770,50065,3.9
+10,"KH. Cahyono Prasetyo, S.Kom",Indonesia,Java,+62-97-206-1235,Gang Pasir Koja No. 3,95238,1.6
+11,Margarita Muñoz Cruz,Colombia,Medellin,+57 312 401 45 96,Cl. 45R Este # 9-7,57494,4.79
+12,Karen Alba Espitia,Colombia,Medellin,304 927 48 70,Calle 142T # 2-9 Sur,45411,2.31
+13,Myriam Judith Romero Salcedo,Colombia,Medellin,978 69 25,Cr. 184X # 8-55 Este,99838,3.11
+14,Christopher Navarro,Ethiopia,Sidamo,(330)574-3811x6527,87096 Shaw Ramp Suite 354,2916,2.96
+15,Randy Schwartz,Ethiopia,Addis Ababa,(870)891-1612x70509,700 Tiffany Knolls,24467,3.7
+16,David Chang,Ethiopia,Sidamo,(736)667-4988,990 Kathryn Pike,15945,4.1
+17,Surya Prayoga,Indonesia,Java,088 756 0554,Gang Cikapayang No. 1,66647,4.41
+18,Alice Freitas,Brazil,Sao Paulo,81 6480 3416,"Residencial de Jesus, 959",39863,2.49
+19,Javier Rodríguez,Colombia,Armenia,+57 606 317 15 82,Transversal 148 # 21-5 Sur,66328,2.88
+20,Camila Mariana Camargo,Colombia,Bogota,6063781378,Av. carrera 9ª # 1-43 Este,63044,2.35
+21,Jessica Gonzalez,Ethiopia,Yirgacheffe,(798)740-0321x843,6598 Oliver River Suite 573,54404,3.83
+22,李佳,China,Guangdong,15262721173,邓街i座,72032,4.59
+23,康岩,China,Guangdong,18626353435,宁德街Q座,11433,3.04
+24,Lori Garcia,Ethiopia,Addis Ababa,590.324.5263x69642,789 Krista Stravenue Apt. 975,21556,3.32
+25,Jeffrey Potts,Ethiopia,Yirgacheffe,001-957-461-8900x650,55473 Peter Station,48665,3.21
+26,Jane Martin,Vietnam,Hanoi,(869)517-3085x7544,315 Dale Extension Suite 141,61614,1.65
+27,Bryan Avery,Ethiopia,Yirgacheffe,001-445-782-3931x9193,3024 Snyder Prairie,84924,2.1
+28,Luis Dario Pérez Posada,Colombia,Medellin,303 336 86 08,Calle 76 # 8-9 Este,1712,4.2
+29,Ana Patricia Suárez Rodríguez,Colombia,Medellin,57 317 765 82 09,Calle 9J # 5-71,53112,3.3
+30,沈丽娟,China,Guangdong,13412700576,蒋街Q座,60279,4.68
+31,Sarah Smith,Vietnam,Hanoi,714-238-0968x49362,940 Matthew Hill,50390,4.24
+32,Lucas Smith,Jamaica,Blue Mountains,457-495-6660x04284,4196 Kara Vista Suite 771,68084,4.22
+33,Sr. Danilo da Costa,Brazil,Sao Paulo,0800-346-1321,Distrito de Vieira,55948,4.82
+34,Piedad Catalina Mantilla García,Colombia,Armenia,576034966818,Calle 1ª # 9-5 Sur,47906,3.49
+35,Davi Lucca Costela,Brazil,Sao Paulo,81 7735-0508,"Alameda Gonçalves, 16",66254,2.95
+36,李淑珍,China,Guangdong,13343663887,丁路A座,54419,2.71
+37,杨建国,China,Yunnan,18931391252,朱路f座,60150,3.6
+38,Carlos Felipe Escobar,Colombia,Medellin,+57 307 520 15 45,Carrera 85 # 9-3,83379,2.12
+39,张东,China,Fujian,15002728330,霍路n座,12106,4.29
+40,"Dt. Mahfud Pradipta, S.H.",Indonesia,Sumatra,+62 (982) 448 2429,Gang Otto Iskandardinata No. 215,4354,4.45
+41,Pranata Wibowo,Indonesia,Jakarta,+62 (015) 182 8365,Gg. Cikutra Barat No. 364,11009,4.54
+42,Gregory Carlson,Vietnam,Ho Chi Minh City,781-492-3125,403 Griffin Glens,2008,4.14
+43,Utama Laksita,Indonesia,Sumatra,+62-0488-686-1911,Gang S. Parman No. 53,32810,2.44
+44,张晨,China,Fujian,15796209105,毛街S座,45244,2.52
+45,王雷,China,Fujian,18825904816,冯街j座,21022,2.39
+46,张婷婷,China,Fujian,18795072410,张路x座,86169,2.46
+47,Dean White,Ethiopia,Sidamo,001-686-523-1079x18468,257 Randolph Mountains Apt. 243,59698,3.96
+48,Nidia Torres,Colombia,Armenia,(+57)3017626163,Cl. 40 # 75-75 Sur,62198,1.9
+49,Kylie Garrett,Ethiopia,Sidamo,9089729895,01398 Carlos Landing Suite 729,50766,2.7
+50,Sra. Lara Moreira,Brazil,Sao Paulo,0800-399-2041,Colônia Bernardo da Mata,33971,1.88
