@@ -2,6 +2,7 @@ Financial Plan
 
 Table of Content:
 
+Here is the current outline:
 1 Introduction
 1.1 Background of Opti Coffee Roasting Company
 1.2 Importance of a Financial Plan
