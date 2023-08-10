@@ -4,7 +4,7 @@ from cafe import Cafe
 from DistributionNetwork import DistributionNetwork
 from CoffeeDistributionOptimizer import CoffeeDistributionOptimizer
 import pandas as pd
-
+import pdb
 
 year = 2023
 month = 2
@@ -22,11 +22,18 @@ for index, row in supplier_df.iterrows():
 demand_history_df = pd.read_csv(base_dir + 'demand_history.csv')
 product_ids = demand_history_df.product_id.unique()
 demand_df = demand_history_df[(demand_history_df.year == year) & (demand_history_df.month == month)]
+customer_df = pd.read_csv(base_dir + 'customer.csv')
+
 cafe_map = {} # cafe id: cafe object
 for index, row in demand_df.iterrows():
     customer_id = row["customer_id"]
-    cafe_map[customer_id] = Cafe(customer_id=customer_id, location="", contact="")
-    cafe_map[customer_id].set_coffee_demand(str(row["product_id"]), row["quantity"])
+    if customer_id not in cafe_map:
+        cafe_row = customer_df[customer_df["customer_id"] == customer_id].iloc[0]
+        cafe_map[customer_id] = Cafe(name=cafe_row["cafe_name"], 
+                                    location=cafe_row["city"] + ", " + cafe_row["country"], 
+                                    contact=cafe_row["contact_name"])
+    cafe_map[customer_id].set_coffee_demand(str(row["product_id"]), 
+                                            row["quantity"])
 
 
 # Read Roasteries from CSV
@@ -57,14 +64,17 @@ network = DistributionNetwork()
 # TODO: add supply prices from supply_price_history.csv 
 for i_r, r in roastery_map.items():
     for i_s, s in supplier_map.items():
-        cost = roastery_df.iloc[roastery_df["Roastery ID" == i_r], f"ship_cost_supply_{i_s}"].item()
+        try:
+            cost = roastery_df.loc[roastery_df["Roastery ID"] == i_r, f"ship_cost_supply_{i_s}"].item()
+        except:
+            pdb.set_trace()
         network.set_shipping_cost_from_supplier_to_roastery(s, r, float(cost))
 
 # Set shipping costs for roasteries to cafes
 # TODO: minus sales price from sell_price_history.csv
 for i_r, r in roastery_map.items():
     for i_c, c in cafe_map.items():
-        cost = roastery_df.iloc[roastery_df["Roastery ID" == i_r], f"ship_cost_customer_{i_c}"].item()
+        cost = roastery_df.loc[roastery_df["Roastery ID"] == i_r, f"ship_cost_customer_{i_c}"].item()
         network.set_shipping_cost_from_roastery_to_cafe(r, c, float(cost))
 
 # Create and run the optimizer

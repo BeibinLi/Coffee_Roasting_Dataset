@@ -1,5 +1,6 @@
 from gurobipy import GRB, Model
 from DistributionNetwork import DistributionNetwork
+import pdb
 
 class CoffeeDistributionOptimizer:
     def __init__(self, network: DistributionNetwork):
@@ -69,6 +70,7 @@ class CoffeeDistributionOptimizer:
         # TODO: double check these constraints
         # Roasting constraints (e.g., specific roasting methods for certain bean types)
         for roastery in self.network.roasteries:
+            # pdb.set_trace()
             for coffee_type in self.network.cafes[0].coffee_demand.keys():  # Assuming all cafes have the same coffee types
                 if not roastery.validate_roasting_constraints(coffee_type, roastery.get_roasting_constraints(coffee_type)):
                     self.model.addConstr(sum(self.variables[roastery.name, cafe.name, coffee_type] for cafe in self.network.cafes) == 0,

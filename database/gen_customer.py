@@ -22,11 +22,11 @@ default_fake = Faker("en")
 with open(file_name, 'w', newline='', encoding="utf-8") as file:
     writer = csv.writer(file)
     # Write the header
-    writer.writerow(['cafe_name', 'contact_name', 'open_date', 'member_since',
+    writer.writerow(['customer_id', 'cafe_name', 'contact_name', 'open_date', 'member_since',
                     'phone_number', 'address', 'city', 'country',
                     'email', 'fav_payment_type',  'fav_subscription_type'])
 
-    for site in customer_sites:
+    for i, site in enumerate(customer_sites):
         country = pycountry.countries.search_fuzzy(site['country'])[0]
         locale = country_code_to_locale[country.alpha_2]
         try:
@@ -37,32 +37,32 @@ with open(file_name, 'w', newline='', encoding="utf-8") as file:
                 fake = Faker(locale[:2])
             except:
                 fake = default_fake
-        for _ in range(1):
-            name = ""
-            while True:
-                name = fake.name()
-                if name not in used_names:
-                    used_names.add(name)
-                    break
-            dob = fake.date_of_birth(minimum_age=10, maximum_age=50)
-            member_since = fake.date_this_decade(before_today=True, after_today=False)
-            try:
-                phone_number = fake.phone_number()
-            except:
-                phone_number = default_fake.phone_number()
-            address = fake.street_address()
-            email = fake.email()
-            fav_payment_type = random.choice(payment_type)
-            fav_subscription_type = random.choice(subscription_type)
 
-            writer.writerow([
-                site["name"], name, dob, member_since,
-                phone_number,
-                address, site['city'], site['country'],
-                email,
-                fav_payment_type,
-                fav_subscription_type,
-            ])
+        name = ""
+        while True:
+            name = fake.name()
+            if name not in used_names:
+                used_names.add(name)
+                break
+        dob = fake.date_of_birth(minimum_age=10, maximum_age=50)
+        member_since = fake.date_this_decade(before_today=True, after_today=False)
+        try:
+            phone_number = fake.phone_number()
+        except:
+            phone_number = default_fake.phone_number()
+        address = fake.street_address()
+        email = fake.email()
+        fav_payment_type = random.choice(payment_type)
+        fav_subscription_type = random.choice(subscription_type)
+
+        writer.writerow([
+            i + 1, site["name"], name, dob, member_since,
+            phone_number,
+            address, site['city'], site['country'],
+            email,
+            fav_payment_type,
+            fav_subscription_type,
+        ])
 
 
 

@@ -1,108 +1,106 @@
-cafe_name,contact_name,open_date,member_since,phone_number,address,city,country,email,fav_payment_type,fav_subscription_type
-Parisian Brew Bistro,Jérôme Lagarde,2011-12-10,2023-04-12,+33 2 51 81 53 31,"479, chemin Joubert",Paris,France,jeannine42@example.com,debit,weekly
-Tokyo Matcha House,斉藤 学,1980-06-04,2020-03-07,23-0817-5419,015 石川 Street,Tokyo,Japan,minoru82@example.com,credit,yearly
-Sydney Harbour Coffee,Jennifer Charles,2000-12-23,2020-09-18,1106-8149,36 Raymond Way,Sydney,Australia,gsalinas@example.org,debit,monthly
-Rio Espresso Lounge,Heloísa Cardoso,1983-01-28,2022-11-08,(041) 6969 6484,"Trecho Gustavo Cavalcanti, 3",Rio de Janeiro,Brazil,nrocha@example.org,debit,yearly
-Cairo Coffee Corner,Joel Romero,1982-10-03,2021-12-09,6415809480,5506 Rivas Isle,Cairo,Egypt,michaelcummings@example.org,debit,weekly
-Alpine Coffee Chalet,Thea Lang Keller,1973-10-05,2020-03-06,+1-468-311-8592x5771,Küngstrasse 32,Zurich,Switzerland,luc55@example.net,cash,weekly
-Seattle Raindrop Cafe,Juan Hull,2004-10-04,2023-05-05,530.226.2454,3482 Kelley Street,Seattle,United States,fhernandez@example.com,debit,monthly
-Dublin Green Bean,Yasmin Bones,1978-04-26,2021-11-23,001-771-497-6966x5084,30 Foley Street,Dublin,Ireland,ileydon@example.com,credit,weekly
-Mumbai Chai Cafe,Amira Johal,1990-10-05,2022-07-18,9333612321,"87/819
-Thaman Road",Mumbai,India,aggarwalanvi@example.net,cash,monthly
-Havana Coffee Cantina,Roque Rivero Corominas,2005-12-30,2020-05-19,+34 973630055,Cañada Rocío Raya 913,Havana,Cuba,nando44@example.com,credit,weekly
-Berlin Wall Brews,Margaretha Liebelt,1983-04-26,2021-11-05,+49(0) 488141765,Ullmanngasse 936,Berlin,Germany,taeschelilly@example.com,credit,yearly
-Capetown Coffee Cove,Eric Hampton,2000-01-22,2022-10-19,498-449-2847,280 Gonzalez Corners Apt. 033,Cape Town,South Africa,jeffreyrivers@example.net,debit,monthly
-London Fog Cafe,Ms Jodie Harrison,1989-06-05,2023-04-06,(0118) 496 0948,54 Maria vista,London,United Kingdom,pamela75@example.com,credit,yearly
-Beijing Tea Blossom,赵桂英,1980-04-09,2020-04-29,13432681549,葛街Q座,Beijing,China,longyong@example.com,cash,yearly
-Vienna Coffee Waltz,Theresa Draxler,1991-01-01,2023-03-04,963-397-1822x89624,Kraftgasse 0/7,Vienna,Austria,seisereric@example.net,debit,monthly
-Sahara Desert Java,وجدي جبيلي,2009-09-07,2021-09-25,588-571-2821x8706,01030 بنو ذي أصبح Lake Apt. 236,Marrakech,Morocco,kbyrhndyp@example.org,credit,weekly
-Athens Olive Coffeehouse,Σιρανούς Φουσιέκης,2012-05-22,2021-07-16,+30 2987 106426,Κλείτου 55,Athens,Greece,archimidis38@example.net,credit,yearly
-Rome Espresso Empire,Ugolino Albertini,2000-08-27,2023-01-24,+39 0545189152,"Vicolo Schiaparelli, 27 Appartamento 31",Rome,Italy,calarcocostantino@example.org,debit,yearly
-Istanbul Turkish Coffee Inn,Prof. Zümre Zubeyde Soylu,2002-02-12,2021-09-04,0336-854 5630,2903 Türk Ville Suite 987,Istanbul,Turkey,ozturk27@example.com,credit,yearly
-Rio Grande Cafe,Luz Milagros Josefina Ledesma Perez,2009-01-28,2023-07-05,+54 15 2799 8155,Camino Santiago del Estero N° 11,Buenos Aires,Argentina,lucas84@example.net,credit,yearly
-Lisbon Harbor Coffeehouse,Rúben Paiva,1994-01-28,2021-11-12,960 025 760,"Praça de Almeida, 31",Lisbon,Portugal,constanca11@example.com,debit,yearly
-Prague Coffee Castle,Květa Němcová,2003-11-26,2021-04-11,702 594 583,U Hřiště 10,Prague,Czechia,denisa41@example.com,debit,yearly
-Bangkok Coconut Cafe,พิชญ์สินี เดชวา,1986-07-22,2023-03-15,+66 7614 2031,4/1 ถ.นุ่มกัน,Bangkok,Thailand,thaawraayusmsirwathn@example.net,debit,yearly
-Melbourne Urban Roast,Susan Evans,1972-10-07,2021-07-10,+61 3 6178 2272,0 Mills Centre,Melbourne,Australia,john91@example.com,debit,yearly
-Dubai Gold Coffee Lounge,Patrick Tyler,1987-02-16,2021-05-21,+971 58 462 0570,5984 Jackson Shore,Dubai,United Arab Emirates,xhowell@example.org,credit,monthly
-Hong Kong Harbor Cafe,张桂芝,1991-04-18,2023-07-20,14547571956,宜都街o座,Hong Kong,China,chaoshen@example.net,credit,yearly
-Amsterdam Canal Coffee,Ella van Praagh-Arts,1973-04-30,2021-10-14,+31(0)94 1323717,Pieterring 184,Amsterdam,Netherlands,wroosenboom@example.net,debit,yearly
-Oslo Fjord Coffeehouse,Kåre-Torbjørn Solberg,1989-12-14,2022-11-16,+47 39 60 26 95,Antonsenstubben 6,Oslo,Norway,cathrinepettersen@example.com,debit,yearly
-Montreal Maple Cafe,Kelly Clark,1999-11-11,2021-12-29,1-310-445-3857,47968 Stanley Track,Montreal,Canada,steve79@example.com,cash,weekly
-St. Petersburg Imperial Brew,г-н Фадеев Мина Измаилович,1982-05-14,2022-03-17,8 043 833 61 51,"ул. Литейная, д. 981",St. Petersburg,Russia,subbotinsofon@example.org,credit,weekly
-Madrid Matador Coffee,Isa Carballo Aliaga,1989-04-13,2021-09-06,+34 955 40 91 81,Camino de Clemente Ramos 91,Madrid,Spain,sreina@example.net,cash,monthly
-Nairobi Safari Sips,Aaron Moreno,1999-05-21,2022-08-29,+1-638-793-9340,4439 Clayton Fort Suite 117,Nairobi,Kenya,stokescraig@example.net,cash,yearly
-Seoul K-Pop Coffee,김지연,2003-02-21,2021-11-14,011-180-9469,부산광역시 서구 도산대197거리 (예원김이동),Seoul,South Korea,eunseogim@example.com,credit,yearly
-Lima Andean Brew,Isabel del Vega,1993-07-23,2022-11-02,+34941345592,Pasaje de Víctor Montalbán 330,Lima,Peru,dmorcillo@example.org,credit,weekly
-Helsinki Northern Lights Cafe,Siiri Nieminen,2010-07-20,2021-07-11,(+358) 361674045,Nervanderinpolku 727,Helsinki,Finland,hlehtimaki@example.net,credit,monthly
-New Orleans Jazz Java,Mrs. Andrea Curtis,1987-12-13,2020-02-25,651.305.0293x300,33175 James Union Apt. 038,New Orleans,United States,maldonadohaley@example.net,credit,yearly
-Quebec Cafe de Glace,Danny Coleman,1998-05-23,2020-07-15,+1 (478) 485-9228,983 Denise Tunnel Suite 848,Quebec City,Canada,george78@example.net,debit,yearly
-Munich Biergarten Coffee,Sybilla Söding B.Sc.,1997-06-12,2020-03-19,(05737) 066875,Marina-auch Schlauchin-Weg 07,Munich,Germany,kostolzinelif@example.com,debit,yearly
-Manila Island Coffee,Jason Banks,1997-06-06,2021-06-11,001-510-508-0868,"B07 L48 Peridot Village, 79th Drive",Manila,Philippines,heather41@example.com,debit,weekly
-Buenos Aires Tango Cafe,Morena Jazmin Ledesma,1978-04-10,2021-01-06,+54 15 2923 7206,Diagonal 8 N° 23,Buenos Aires,Argentina,umartinez@example.com,debit,monthly
-Budapest River Cafe,Simon Ilona Adrienn,2002-10-15,2021-11-04,82/682-3547,Szentgyörgyi utca 22.,Budapest,Hungary,mkocsis@example.net,cash,monthly
-Moscow Red Square Coffee,Парамон Александрович Шестаков,1973-01-10,2021-10-10,8 332 997 38 14,"бул. Ленина, д. 169 к. 33",Moscow,Russia,gorde2019@example.com,debit,yearly
-Auckland Ocean Coffee,Sarah Parker,2000-08-19,2021-01-22,04-281-3657,"Level 1
-9 Hope Track",Auckland,New Zealand,vcasey@example.com,credit,monthly
-Copenhagen Viking Cafe,Univ.Prof. Valdemar Bruun,1998-10-07,2020-10-31,18 80 02 35,Heilsvej 1,Copenhagen,Denmark,benjamin05@example.org,credit,weekly
-Jakarta Java Joint,"Winda Mulyani, M.Farm",1990-09-27,2021-09-21,(097) 569 9829,Jl. Peta No. 879,Jakarta,Indonesia,gfarida@example.com,cash,weekly
-Wellington Windy Brew,Anna Pope-Read,1980-11-21,2022-11-22,021 593 6213,"Apt. 151
-55 Warner Street",Wellington,New Zealand,andrew09@example.com,cash,monthly
-Santiago Mountain Coffee,Bienvenida Sanz Gomis,1985-01-15,2022-02-13,+34 981 345 335,Cañada de María Luisa Gallo 10,Santiago,Costa Rica,vicentevila@example.net,credit,monthly
-Warsaw Royal Cafe,Juliusz Wajer,2005-02-03,2022-01-27,731 558 407,ulica Prusa 324,Warsaw,Poland,jlemiesz@example.net,cash,weekly
-Taipei Tea House,劉怡如,2003-12-13,2021-04-11,020 72134492,民享路65號,Taipei,Taiwan,zengguiying@example.net,cash,yearly
-Reykjavik Glacier Cafe,Andrea Green,1990-07-06,2022-02-14,+1-602-557-2171x7217,4481 Cindy Extension,Reykjavik,Iceland,sliu@example.org,credit,monthly
-Manila Sunset Cafe,Travis Cabrera,1972-10-26,2020-10-19,402.419.3947x175,7043-F Lawaan Street,Manila,Philippines,brianpope@example.org,credit,monthly
-Miami Beachside Coffee,April Chavez,2011-12-22,2021-09-28,001-557-436-0063x7471,01428 Brown Fork,Miami,United States,mendezpatrick@example.net,credit,weekly
-Johannesburg Jungle Java,Michael Miller,1984-07-22,2022-09-07,329.356.8764,39723 Washington Fields Apt. 399,Johannesburg,South Africa,kendra87@example.org,cash,monthly
-Kuala Lumpur Skyline Cafe,Ryan Solis,1984-01-13,2020-07-26,001-237-769-8328x943,779 Cook Centers Suite 362,Kuala Lumpur,Malaysia,benjamin01@example.net,debit,weekly
-Edinburgh Castle Coffee,Vincent Hanson,1984-01-13,2022-07-04,+44(0)118 496 0541,"Studio 53
-Samuel locks",Edinburgh,United Kingdom,urobinson@example.com,credit,weekly
-Brussels Waffle Cafe,Josse Verstraete,2008-02-28,2021-07-31,+32426 968451,Louisdreef 82,Brussels,Belgium,danielsria@example.org,cash,weekly
-Stockholm Swedish Sips,Dagmar Karlsson,1994-05-31,2022-07-15,0221-636 37,Björkgatan 2,Stockholm,Sweden,lberg@example.com,credit,yearly
-Mexico City Aztec Cafe,Andrés Cordero Adame,2007-08-26,2020-05-15,(731)387-6753x1373,Pasaje Turquía 847 993,Mexico City,Mexico,hilda78@example.org,credit,yearly
-Geneva Lakeview Coffee,Christos Felder,1975-11-13,2020-02-25,(570)571-9757x9111,Stadelmannstrasse 531,Geneva,Switzerland,whermann@example.com,debit,yearly
-New Delhi Spice Cafe,Sahil Bassi,1976-06-10,2023-01-29,+912035470325,"09/862
-Grover Path",New Delhi,India,anahikhurana@example.net,credit,monthly
-Athens Acropolis Espresso,Χρύσανθος Κουτσουλής,2003-11-07,2021-12-15,6903264852,Τσιπλίκωφ 08-55,Athens,Greece,theopistos.filiagkou@example.net,credit,monthly
-Rio Carnival Coffeehouse,Sra. Luna da Cunha,2008-02-07,2021-03-31,(021) 9809-6533,"Praia Pietro Monteiro, 91",Rio de Janeiro,Brazil,balmeida@example.net,debit,weekly
-Lagos Lagoon Cafe,Holly Todd,1983-08-19,2022-01-01,+1-993-874-0173x12739,286 Elizabeth Row Apt. 028,Lagos,Nigeria,jlyons@example.org,credit,weekly
-Cairo Oasis Coffee,Paige Fisher,1997-02-20,2023-08-04,+1-745-316-9933x5552,45518 Brandy Squares Apt. 836,Cairo,Egypt,fwalker@example.com,debit,monthly
-Cape Town Coastal Cafe,Brianna Wade,2008-10-04,2020-06-08,220.726.3427x279,21377 Stacy Plains Apt. 079,Cape Town,South Africa,michelledavis@example.net,cash,weekly
-Buenos Aires Gaucho Grind,Dr(a). Agustina Coronel,2006-01-08,2022-05-08,+54 9 3873 3489,Diagonal San Miguel de Tucumán N° 221,Buenos Aires,Argentina,lautaromaldonado@example.org,debit,monthly
-Honolulu Surf Sips,Claudia Moreno,1976-03-27,2021-04-02,935-693-3076x3663,420 Smith Hill Suite 706,Honolulu,United States,vnoble@example.com,credit,weekly
-Venice Canal Coffee,Giacobbe Bruscantini,1981-04-21,2020-08-09,+39 092575821,"Viale Nievo, 5 Appartamento 4",Venice,Italy,rinalditatiana@example.com,credit,yearly
-Beirut Cedar Cafe,بتلاء القباني,1980-03-25,2023-05-31,632-528-6988x8825,572 نبراس Neck Apt. 030,Beirut,Lebanon,balrbab@example.org,cash,yearly
-Barcelona Beach Brew,Fortunato Rueda Serra,2001-11-13,2023-04-20,+34 826908477,Calle María Manuela Bauzà 860 Apt. 91 ,Barcelona,Spain,damian47@example.com,credit,yearly
-Bangkok Temple Coffee,เขียว ไม้แดง,2000-05-06,2022-09-26,03 342 0315,0 ถนนธูปะวิโรจน์,Bangkok,Thailand,uthaaraathr@example.net,cash,yearly
-Marrakech Medina Coffee,الآنسة إباء هذيل,2012-03-05,2022-01-02,001-801-530-3684x3906,120 الكواهلة Hill Apt. 845,Marrakech,Morocco,alsadpnwan@example.org,credit,monthly
-Shanghai Silk Road Cafe,何璐,2001-07-11,2021-02-21,13495040451,刘街x座,Shanghai,China,mingsu@example.net,credit,monthly
-Vancouver Rainforest Roast,Nicole Rangel,2007-07-08,2020-11-05,1-239-823-3660,53548 Richard Well,Vancouver,Canada,steven08@example.net,credit,weekly
-Lyon Lumiere Cafe,Philippe Dumont-Collin,2002-05-04,2022-12-25,+33 (0)3 54 57 40 46,"86, rue Nicolas",Lyon,France,aweiss@example.com,debit,monthly
-Quebec Voyageur Coffee,Nicole Chan,2008-09-11,2021-07-01,541-051-3526,4008 Baker Gateway,Quebec City,Canada,davidwade@example.net,cash,monthly
-Glasgow Gaelic Grind,Danny Turner,2009-10-02,2021-12-10,+448081570686,"Flat 73
-Williams drive",Glasgow,United Kingdom,geraldine60@example.com,credit,yearly
-Chicago Windy City Coffee,Sarah Thomas,2006-09-02,2021-11-18,227-422-1902x0073,495 Derek Loop,Chicago,United States,phodges@example.net,cash,monthly
-Athens Athena Cafe,Νικόλαος Κορδατζής,1985-06-13,2020-10-31,(+30) 6936 117469,Πλατεία Προφήτου Ηλία 021,Athens,Greece,papastergiou.tilemachos@example.com,credit,yearly
-Milan Fashion Brew,Gemma Mimun-Maspero,1975-05-01,2022-10-07,+39 0578669206,"Strada Mauro, 6 Piano 2",Milan,Italy,nolcinimichele@example.com,cash,yearly
-Tokyo Sumo Sips,田中 花子,1998-12-19,2021-08-03,090-5585-6083,842 小川 Street,Tokyo,Japan,anishimura@example.org,credit,yearly
-Hanoi Heritage Cafe,Mckenzie Richards,1985-02-12,2020-06-11,(948)512-3615x1379,36236 Garrett Drives,Hanoi,Vietnam,xharrell@example.com,debit,monthly
-Rome Colosseum Coffee,Dott. Greca Sollima,2011-03-24,2021-08-28,37033804487,"Incrocio Ferrata, 38",Rome,Italy,bruno39@example.com,debit,monthly
-Geneva Swiss Sips,Piero Graf,1981-05-01,2020-04-20,(732)346-5509x118,Hodelstrasse 49,Geneva,Switzerland,wirthalicia@example.net,cash,yearly
-New York Skyline Cafe,Christopher Murphy,1997-08-30,2023-02-11,337-299-1386x7991,9809 Allison Cove,New York,United States,mark49@example.com,cash,weekly
-Copenhagen Mermaid Cafe,Dr. Jørgen Kristiansen,1975-03-20,2023-04-14,24 14 51 19,Flyhangar Allé 86,Copenhagen,Denmark,lundweena@example.com,debit,weekly
-Berlin Bauhaus Brew,Frau Romy Weinhage,1992-12-28,2022-07-27,05006205163,Carolin-Berger-Weg 26,Berlin,Germany,jan-petergotthard@example.net,credit,yearly
-Sydney Opera House Coffee,Charles Johnson,1981-04-21,2022-07-20,+61.460.826.785,Unit 74 270 Aimee Foreshore,Sydney,Australia,wmoore@example.org,credit,monthly
-Toronto Maple Brew,Herbert Hansen,1994-10-29,2021-06-27,851-834-7511 x147,203 Isaac Shore,Toronto,Canada,hhorne@example.net,cash,yearly
-Mumbai Bollywood Cafe,Rania Gour,1991-03-10,2020-09-01,+910503135166,"12/46
-Srinivas Ganj",Mumbai,India,agrawalvanya@example.com,debit,weekly
-Bogota Andes Aroma,José Juan Vásquez,1996-11-29,2022-01-06,(+57)3178457806,Carrera 108X # 3-7 Este,Bogota,Colombia,daniel79@example.org,credit,yearly
-Osaka Sushi Coffee Bar,山本 裕樹,1981-04-03,2022-10-31,080-1724-7849,966 村上 Street,Osaka,Japan,kobayashisayuri@example.net,credit,monthly
-Barcelona Gaudi Cafe,Artemio Acuña Diaz,1997-01-01,2021-10-04,+34 947 450 700,Via Marcelo Larrea 67 Piso 9 ,Barcelona,Spain,zaida78@example.org,cash,yearly
-Florence Renaissance Roast,Alessio Campanella,1973-08-23,2021-02-20,016142747,"Via Massimiliano, 29 Appartamento 5",Florence,Italy,visintiniraimondo@example.net,cash,weekly
-Lisbon Lighthouse Cafe,Bárbara Barbosa,2005-11-01,2022-03-10,(351) 966 157 310,"Largo de Pereira, S/N",Lisbon,Portugal,gabrielacosta@example.net,credit,yearly
-Prague Bohemian Brews,Alexandr Fiala,1992-12-22,2020-04-08,720 006 088,Černá 77,Prague,Czechia,tkralova@example.net,debit,monthly
-Rio Samba Coffee Shop,Dr. Augusto Moura,1987-03-22,2023-06-27,+55 11 8774 0351,"Loteamento Lima, 97",Rio de Janeiro,Brazil,dnascimento@example.net,cash,monthly
-Paris Eiffel Espresso,Alfred Sanchez,1974-03-15,2020-12-05,+33 (0)3 27 03 80 89,"4, chemin de Vaillant",Paris,France,thibauthernandez@example.org,credit,monthly
-Moscow Kremlin Koffee,Анжелика Никифоровна Смирнова,1974-08-28,2020-03-15,89206579764,"бул. Терешковой, д. 5 стр. 10",Moscow,Russia,bogdansisoev@example.org,debit,weekly
-Dublin Celtic Coffeehouse,Lloyd Tuohy,1973-09-26,2021-08-23,+1-505-501-7329,94 Givern Street,Dublin,Ireland,jrinn@example.net,credit,yearly
+customer_id,cafe_name,contact_name,open_date,member_since,phone_number,address,city,country,email,fav_payment_type,fav_subscription_type
+1,Parisian Brew Bistro,Éric Lemonnier,2008-03-20,2020-12-31,0277010390,"80, rue Thibaut Chevallier",Paris,France,qlemoine@example.com,debit,weekly
+2,Tokyo Matcha House,後藤 裕太,1980-04-18,2023-04-06,29-4627-8330,104 松本 Street,Tokyo,Japan,juntakahashi@example.org,credit,yearly
+3,Sydney Harbour Coffee,Lisa Scott,2010-10-31,2021-01-17,02-9985-1676,Unit 91 59 April Approach,Sydney,Australia,samuel77@example.com,debit,monthly
+4,Rio Espresso Lounge,Isaac Souza,1982-12-09,2021-06-20,81 4614-4979,"Conjunto Marcelo da Costa, 30",Rio de Janeiro,Brazil,maria-eduarda36@example.net,debit,yearly
+5,Cairo Coffee Corner,David Greene,1973-08-25,2021-04-17,689.701.5249x644,9622 Hall Land Apt. 492,Cairo,Egypt,millertiffany@example.org,debit,weekly
+6,Alpine Coffee Chalet,Carol Winkler,1988-07-15,2020-05-23,001-431-523-8842x8587,Probststrasse 37,Zurich,Switzerland,kott@example.org,cash,weekly
+7,Seattle Raindrop Cafe,Elizabeth Foster,1984-03-16,2022-02-11,(281)857-7485x04974,84343 Williamson Springs Suite 188,Seattle,United States,jerry07@example.com,debit,monthly
+8,Dublin Green Bean,Caoimhin Heskin,2004-08-15,2020-06-28,001-914-578-1333x5850,80 Lanigan Street,Dublin,Ireland,lavellkayleigh@example.org,credit,weekly
+9,Mumbai Chai Cafe,Rhea Bajaj,2004-03-17,2021-10-19,09326670926,"H.No. 05
+Tara Ganj",Mumbai,India,nbatra@example.org,cash,monthly
+10,Havana Coffee Cantina,Eusebio Gallo Barón,1973-04-29,2022-01-22,+34936 05 80 60,Acceso Felipe Tovar 731,Havana,Cuba,oliveryolanda@example.com,credit,weekly
+11,Berlin Wall Brews,Ingbert Wirth,1982-07-27,2021-09-06,(04281) 170508,Pohlring 5,Berlin,Germany,salvatore56@example.com,credit,yearly
+12,Capetown Coffee Cove,Walter Davidson,2007-11-12,2022-06-18,001-234-392-0230,09044 Young Lane,Cape Town,South Africa,tmonroe@example.com,debit,monthly
+13,London Fog Cafe,Michael Welch,2004-06-04,2022-05-14,(0114) 496 0160,50 Atkins ports,London,United Kingdom,lisa71@example.com,credit,yearly
+14,Beijing Tea Blossom,吕玉兰,2009-05-10,2021-07-30,18260696747,梧州街a座,Beijing,China,fangma@example.net,cash,yearly
+15,Vienna Coffee Waltz,Mika Kratzer-Kahr,2002-05-20,2023-04-22,(388)244-4599x5373,Lionel-Schuh-Weg 3,Vienna,Austria,miloberger@example.org,debit,monthly
+16,Sahara Desert Java,جواهر زهران,2009-09-14,2023-05-18,884.919.6071x69550,74951 أشجع Meadows,Marrakech,Morocco,wjdyalmntfq@example.org,credit,weekly
+17,Athens Olive Coffeehouse,Κυπαρισσία Δαυίδ,1981-04-15,2022-08-05,+30 6922 999099,Πλατεία Πετσαλίου 6,Athens,Greece,karaiskos.ivi@example.com,credit,yearly
+18,Rome Espresso Empire,Carla Leoncavallo,1996-11-28,2022-05-08,3711951941,"Viale Donna, 17",Rome,Italy,ninotroisi@example.net,debit,yearly
+19,Istanbul Turkish Coffee Inn,Koçak Ertaş,2006-08-06,2023-03-29,05085791594,990 Gazel Terrace Apt. 971,Istanbul,Turkey,seyfullahmanco@example.com,credit,yearly
+20,Rio Grande Cafe,Dr(a). Francisco Ortiz,1980-07-14,2020-09-24,+54 15 2448 7121,Avenida Buenos Aires N° 285,Buenos Aires,Argentina,sofia96@example.com,credit,yearly
+21,Lisbon Harbor Coffeehouse,Francisco Sá,1979-04-11,2023-01-17,(351) 911675869,"Praça Gil Nunes, 89",Lisbon,Portugal,camposemilia@example.com,debit,yearly
+22,Prague Coffee Castle,slečna Věra Hájková,1986-09-05,2021-05-28,738 757 159,Výhledské Nám. 7,Prague,Czechia,stastnyvlastimil@example.net,debit,yearly
+23,Bangkok Coconut Cafe,เบญญาทิพย์ บัวเผื่อน,1972-11-26,2021-08-16,+66 (0) 7007 2168,115/34 ถ.ดีตพันธุ์,Bangkok,Thailand,nphntthnadrb@example.org,debit,yearly
+24,Melbourne Urban Roast,Jonathan Taylor,2000-10-28,2021-03-21,+61.416.584.297,7 Scott Range,Melbourne,Australia,tranrodney@example.org,debit,yearly
+25,Dubai Gold Coffee Lounge,Jordan Pena,2004-05-21,2020-03-26,922,54291 Jeremy Run Apt. 984,Dubai,United Arab Emirates,patriciamills@example.net,credit,monthly
+26,Hong Kong Harbor Cafe,李利,1992-10-18,2020-09-25,13652890589,北镇街t座,Hong Kong,China,jun17@example.com,credit,yearly
+27,Amsterdam Canal Coffee,Eline Zwijsen,1984-01-29,2020-01-08,(0237) 892419,Jimlaan 8,Amsterdam,Netherlands,rsarneel@example.com,debit,yearly
+28,Oslo Fjord Coffeehouse,Marius Nielsen,1985-03-21,2020-02-03,45761579,Nilsenlia 11,Oslo,Norway,grojakobsen@example.org,debit,yearly
+29,Montreal Maple Cafe,Dawn Hernandez,1993-10-26,2020-06-23,863-396-8517 x526,13335 Mcintyre Cape Apt. 242,Montreal,Canada,iharrison@example.com,cash,weekly
+30,St. Petersburg Imperial Brew,Устин Еремеевич Смирнов,1998-11-21,2022-05-27,8 761 676 8372,"пер. Юбилейный, д. 544 к. 5/5",St. Petersburg,Russia,mitofan06@example.net,credit,weekly
+31,Madrid Matador Coffee,Ángela Merino Valero,2000-02-07,2022-03-13,+34880 22 33 37,Pasadizo de Celso Araujo 6 Piso 2 ,Madrid,Spain,cruz25@example.org,cash,monthly
+32,Nairobi Safari Sips,Mark Baker,1986-11-23,2021-09-27,640-983-1993x669,068 Melissa Meadows,Nairobi,Kenya,gkirk@example.com,cash,yearly
+33,Seoul K-Pop Coffee,이지훈,1996-09-24,2021-04-18,032-044-6649,충청북도 용인시 기흥구 봉은사136가 (지현이읍),Seoul,South Korea,seohyeon98@example.com,credit,yearly
+34,Lima Andean Brew,Teobaldo del Infante,1984-07-10,2020-09-30,+34 826148956,Alameda José María Alberto 26 Apt. 57 ,Lima,Peru,deborareguera@example.org,credit,weekly
+35,Helsinki Northern Lights Cafe,Matias Nylund,2000-10-19,2021-10-19,088 085 4680,Rantavarastonpolku 001,Helsinki,Finland,bvirtanen@example.org,credit,monthly
+36,New Orleans Jazz Java,Lindsay Arnold,1987-08-26,2021-08-08,(858)697-9446x1044,511 Lauren Rapids Apt. 232,New Orleans,United States,ibecker@example.org,credit,yearly
+37,Quebec Cafe de Glace,Alexander Austin,1983-11-13,2021-03-01,271-522-3438 x176,714 Burch Junctions Suite 156,Quebec City,Canada,kellyjodi@example.org,debit,yearly
+38,Munich Biergarten Coffee,Hildegunde Reichmann,1995-09-24,2022-06-20,03260 755599,Gönül-Ehlert-Allee 6/3,Munich,Germany,ottfriedholzapfel@example.com,debit,yearly
+39,Manila Island Coffee,Barbara Schroeder,1975-07-05,2023-04-04,+1-889-687-1545x912,2200 Yakal Street,Manila,Philippines,thomasmcconnell@example.com,debit,weekly
+40,Buenos Aires Tango Cafe,Violeta Diaz Diaz,1994-08-22,2020-09-24,+54 15 2282 7526,Blv. Ushuaia N° 2988,Buenos Aires,Argentina,lruiz@example.com,debit,monthly
+41,Budapest River Cafe,Tóth Erzsébet,1977-07-21,2021-05-11,06-47/591 0088,Petőfi sándor utca 76.,Budapest,Hungary,kocsistibor@example.net,cash,monthly
+42,Moscow Red Square Coffee,Доронин Ювеналий Елисеевич,2003-05-09,2020-08-11,+7 696 223 48 33,"ул. Запрудная, д. 11 стр. 88",Moscow,Russia,kudrjavtseveduard@example.com,debit,yearly
+43,Auckland Ocean Coffee,Jason Anderson,1972-12-22,2020-03-10,379 3203,"Flat 61
+8 Ryan-Judd Street",Auckland,New Zealand,giffordsarah@example.com,credit,monthly
+44,Copenhagen Viking Cafe,Finn Holst,1973-05-31,2023-01-23,63535767,Verasvej 37,Copenhagen,Denmark,rasmussensigne@example.com,credit,weekly
+45,Jakarta Java Joint,"Puput Permata, S.Farm",1986-04-02,2020-05-24,(077) 091-8128,Jalan Sadang Serang No. 89,Jakarta,Indonesia,vega30@example.org,cash,weekly
+46,Wellington Windy Brew,Heather Hood,2009-11-12,2021-12-11,04 382-0286,PO Box 9,Wellington,New Zealand,tpollard@example.net,cash,monthly
+47,Santiago Mountain Coffee,Ani Hurtado Jódar,1989-04-12,2023-07-23,+34948 267 621,Vial de Reyes Neira 6 Puerta 0 ,Santiago,Costa Rica,ngaya@example.org,credit,monthly
+48,Warsaw Royal Cafe,pani Karina Pyrz,2012-10-27,2022-12-26,+48 783 903 062,ul. Przechodnia 56/66,Warsaw,Poland,siejamaciej@example.net,cash,weekly
+49,Taipei Tea House,揭佳慧,2003-07-30,2021-09-03,0977922282,土城路9號,Taipei,Taiwan,xiagu@example.com,cash,yearly
+50,Reykjavik Glacier Cafe,Jonathon Jones,2012-11-15,2023-07-30,+1-720-600-3737,9614 April Isle,Reykjavik,Iceland,bgonzalez@example.com,credit,monthly
+51,Manila Sunset Cafe,Michael Jones,2011-09-24,2022-11-11,001-275-403-4691x986,307 Unit G 89th Extension,Manila,Philippines,hayden40@example.com,credit,monthly
+52,Miami Beachside Coffee,Christina Jackson,1979-10-31,2021-03-12,+1-464-594-3975x1024,142 Smith Avenue,Miami,United States,bethany87@example.com,credit,weekly
+53,Johannesburg Jungle Java,Ray Cochran,1989-04-20,2022-04-10,+1-977-578-3463,0757 Watson Locks,Johannesburg,South Africa,larry19@example.net,cash,monthly
+54,Kuala Lumpur Skyline Cafe,Brian Stewart,1985-02-14,2021-04-25,001-536-487-1267x683,04138 Destiny Mountains Apt. 101,Kuala Lumpur,Malaysia,deannavelazquez@example.net,debit,weekly
+55,Edinburgh Castle Coffee,Kieran Field,2006-06-29,2022-07-30,(0118) 4960480,"Flat 91a
+Irene overpass",Edinburgh,United Kingdom,dunnmark@example.org,credit,weekly
+56,Brussels Waffle Cafe,Anita Depoorter,1989-12-12,2022-08-10,0110 755371,Hélènepad 552,Brussels,Belgium,kenmarien@example.com,cash,weekly
+57,Stockholm Swedish Sips,Oskar Petersson,1980-01-04,2020-01-11,08-57 41 56,Kvarngränd 88,Stockholm,Sweden,slarsson@example.com,credit,yearly
+58,Mexico City Aztec Cafe,Abigail Antonio Viera Zayas,1998-08-13,2023-05-06,(187)517-8382x4298,"Peatonal Norte Pelayo 109 Edif. 999 , Depto. 073",Mexico City,Mexico,nataliarojo@example.com,credit,yearly
+59,Geneva Lakeview Coffee,Lorik Meyer-Walter,2012-12-18,2022-09-23,5719770721,Wehrlistrasse 3,Geneva,Switzerland,estelleferrari@example.org,debit,yearly
+60,New Delhi Spice Cafe,Bhavin Zacharia,1976-04-28,2020-04-18,0071402953,"302, Dugal Nagar",New Delhi,India,rwali@example.net,credit,monthly
+61,Athens Acropolis Espresso,Μεταξία Καμινάρη,2004-04-26,2020-02-29,210 6277440,Ανέζης 80,Athens,Greece,vorlokas.christian@example.org,credit,monthly
+62,Rio Carnival Coffeehouse,Ana Luiza Mendes,1983-02-01,2022-10-06,0500-969-2925,"Viaduto Sophie Cavalcanti, 19",Rio de Janeiro,Brazil,ymendes@example.org,debit,weekly
+63,Lagos Lagoon Cafe,Brandy Colon,1999-07-18,2020-11-05,507.377.9868x38740,14374 Christopher Stravenue Suite 828,Lagos,Nigeria,bryanalyssa@example.net,credit,weekly
+64,Cairo Oasis Coffee,Joseph Hunt,1994-05-04,2023-01-18,611-896-6876x0372,48819 Gregory Parkway,Cairo,Egypt,jennifer06@example.org,debit,monthly
+65,Cape Town Coastal Cafe,Samantha Vaughn,1991-09-19,2022-05-14,(543)689-5925x46338,053 Todd Port Apt. 578,Cape Town,South Africa,emma85@example.org,cash,weekly
+66,Buenos Aires Gaucho Grind,Thiago Duarte Martinez,1987-02-04,2021-09-10,+54 15 2520 3013,Calle 9 N° 97,Buenos Aires,Argentina,renata69@example.com,debit,monthly
+67,Honolulu Surf Sips,Joseph Lewis,2001-04-27,2020-09-04,421-724-0825,107 Carroll Neck,Honolulu,United States,vmorris@example.com,credit,weekly
+68,Venice Canal Coffee,Irma Antonucci,2000-10-28,2022-09-11,3311235744,"Borgo Gianmarco, 31 Piano 2",Venice,Italy,otrebbi@example.org,credit,yearly
+69,Beirut Cedar Cafe,الأستاذ نسيب السادة الراويون,1979-08-14,2022-09-24,001-913-892-8694x923,1081 كمال Cove,Beirut,Lebanon,osyam@example.net,cash,yearly
+70,Barcelona Beach Brew,Manola Vara Noriega,1995-11-26,2020-05-11,+34 742 44 86 42,Pasadizo Amador Hierro 7,Barcelona,Spain,rescudero@example.org,credit,yearly
+71,Bangkok Temple Coffee,สุธาวี เขียวอ่อน,2009-01-16,2022-03-18,049-970900,1/4 ถนนนะวะมันดร,Bangkok,Thailand,thngaethmniiyaa@example.net,cash,yearly
+72,Marrakech Medina Coffee,الدكتور عبد الواحد الألجاوي,2009-05-30,2022-04-15,(827)489-8606,4111 أنمار Branch,Marrakech,Morocco,fadzhran@example.org,credit,monthly
+73,Shanghai Silk Road Cafe,戴杰,1978-07-02,2021-02-04,18530498183,南昌街j座,Shanghai,China,lei34@example.org,credit,monthly
+74,Vancouver Rainforest Roast,Michael Heath,1996-05-07,2020-04-12,1 (904) 853-4073,79633 Vanessa Heights,Vancouver,Canada,williamlewis@example.org,credit,weekly
+75,Lyon Lumiere Cafe,Stéphanie Pasquier,1986-01-16,2020-06-10,05 47 98 11 48,"61, chemin Pelletier",Lyon,France,morinnoemi@example.com,debit,monthly
+76,Quebec Voyageur Coffee,Barbara Turner,1999-08-19,2021-01-16,(557) 959-9755 x408,459 Tina Greens,Quebec City,Canada,sanchezelizabeth@example.net,cash,monthly
+77,Glasgow Gaelic Grind,Valerie Barnett-Clarke,2012-04-30,2022-11-27,+44(0)808 1570549,"Flat 45C
+Lewis branch",Glasgow,United Kingdom,zrobinson@example.net,credit,yearly
+78,Chicago Windy City Coffee,Nicole Williams,1974-02-16,2020-12-04,(515)869-1091x08577,1920 Sabrina Extensions,Chicago,United States,tmorales@example.com,cash,monthly
+79,Athens Athena Cafe,Μαρωτέσα Αλεξανδράκη,1980-06-09,2021-02-28,2106532795,Δρυμαλίτου 89-97,Athens,Greece,garyfallia.gkaliou@example.com,credit,yearly
+80,Milan Fashion Brew,Elvira Fantoni-Binaghi,1996-01-24,2021-12-31,+39 0898920284,"Incrocio Irma, 45 Appartamento 50",Milan,Italy,krespighi@example.org,cash,yearly
+81,Tokyo Sumo Sips,山本 翼,2007-03-02,2023-04-14,080-4979-2878,138 鈴木 Street,Tokyo,Japan,yito@example.com,credit,yearly
+82,Hanoi Heritage Cafe,Robert Elliott,1999-05-21,2020-01-26,763-990-1518x03128,0387 Young Path,Hanoi,Vietnam,allisonpierce@example.net,debit,monthly
+83,Rome Colosseum Coffee,Liberto Cainero-Quasimodo,1982-10-08,2020-04-25,+39 3363271752,"Incrocio Ronaldo, 522 Piano 8",Rome,Italy,gaetano92@example.net,debit,monthly
+84,Geneva Swiss Sips,Muhamed Zehnder,1992-06-16,2023-01-23,970.811.0319x0345,Schlatterstrasse 98,Geneva,Switzerland,giancarloburri@example.com,cash,yearly
+85,New York Skyline Cafe,Carrie Best,1999-08-02,2022-02-27,001-272-400-7563,762 Gregory Garden Suite 126,New York,United States,chelsea07@example.org,cash,weekly
+86,Copenhagen Mermaid Cafe,Dr. Carsten Lund,2000-04-13,2022-01-23,+45 68 46 62 12,Lille Fredensvej 694,Copenhagen,Denmark,yvonnemortensen@example.com,debit,weekly
+87,Berlin Bauhaus Brew,Hedwig Müller,1997-08-05,2020-10-31,+49(0) 231887418,Maria-Becker-Platz 991,Berlin,Germany,kkaul@example.net,credit,yearly
+88,Sydney Opera House Coffee,Terri Baker,2010-01-27,2021-05-26,(03)-7166-9128,Apt. 880 641 Heather Ronde,Sydney,Australia,ballen@example.com,credit,monthly
+89,Toronto Maple Brew,Monica Cardenas,1987-03-04,2023-05-28,(201) 479-6331 x205,3106 Chad Spring Suite 446,Toronto,Canada,ytravis@example.org,cash,yearly
+90,Mumbai Bollywood Cafe,Jivika Sem,1987-05-01,2020-05-24,0117842125,"60/469
+Gupta Nagar",Mumbai,India,lguha@example.com,debit,weekly
+91,Bogota Andes Aroma,Elsa Palacios,2001-06-21,2020-04-20,+57 605 802 42 58,Carrera 82 # 7-8,Bogota,Colombia,francyvelasquez@example.com,credit,yearly
+92,Osaka Sushi Coffee Bar,伊藤 明美,1975-07-31,2022-10-13,090-1973-7395,747 松本 Street,Osaka,Japan,minoru68@example.net,credit,monthly
+93,Barcelona Gaudi Cafe,Rosalina Leocadia Jara Murcia,2006-04-08,2023-01-01,+34 879 021 978,Acceso Pascual Pino 892 Piso 3 ,Barcelona,Spain,oguzman@example.net,cash,yearly
+94,Florence Renaissance Roast,Gioffre Moschino,1972-09-23,2020-09-09,+39 0543150617,"Borgo Silvia, 39",Florence,Italy,poleselalessia@example.com,cash,weekly
+95,Lisbon Lighthouse Cafe,Yasmin-Fabiana Loureiro,1978-10-21,2021-10-03,(351) 296198808,"R. do Molhe, 4",Lisbon,Portugal,almeidanaiara@example.com,credit,yearly
+96,Prague Bohemian Brews,Ondřej Štěpánek,1976-04-09,2020-06-24,720 080 957,U Nového Dvora 77,Prague,Czechia,dolezalsimon@example.com,debit,monthly
+97,Rio Samba Coffee Shop,Luiz Henrique Gomes,2007-09-13,2023-06-20,81 9781-2686,"Esplanada Pires, 204",Rio de Janeiro,Brazil,ana-vitoriasilveira@example.net,cash,monthly
+98,Paris Eiffel Espresso,Élodie Humbert,1985-02-02,2021-11-13,06 36 54 95 14,"34, chemin William Duval",Paris,France,vaillanthenri@example.net,credit,monthly
+99,Moscow Kremlin Koffee,Элеонора Алексеевна Зыкова,2002-07-18,2020-02-07,8 322 864 7759,"пер. Шолохова, д. 705 к. 9/4",Moscow,Russia,afanasi1997@example.org,debit,weekly
+100,Dublin Celtic Coffeehouse,Heather O'Freil,1981-10-18,2022-07-22,235.239.7840x83102,21 McNicholl Street,Dublin,Ireland,jennimorris@example.org,credit,yearly
