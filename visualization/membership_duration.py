@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the customer data
-df = pd.read_csv('../database/customer.csv')
+df = pd.read_csv('database/customer.csv')
 
 # Convert 'member_since' column to datetime format
 df['member_since'] = pd.to_datetime(df['member_since'])
@@ -22,5 +22,5 @@ plt.ylabel('Number of Customers Joined')
 plt.xticks(rotation=45)
 plt.tight_layout()
 
-os.makedirs('../images', exist_ok=True)
-plt.savefig('../images/membership_duration.png')
+os.makedirs('images', exist_ok=True)
+plt.savefig('images/membership_duration.png')

@@ -26,7 +26,7 @@ else:
     supplier_id = args.id
 
 # Load the data
-df = pd.read_csv('../database/supply_price_history.csv')
+df = pd.read_csv('database/supply_price_history.csv')
 
 # Filter data for the given supplier
 df_filtered = df[df['supplier_id'] == supplier_id]
@@ -46,5 +46,5 @@ plt.grid(True)
 plt.tight_layout()
 
 # Show the plot
-os.makedirs('../images', exist_ok=True)
-plt.savefig(f'../images/supplier_price_{supplier_id}.png')
+os.makedirs('images', exist_ok=True)
+plt.savefig(f'images/supplier_price_{supplier_id}.png')
