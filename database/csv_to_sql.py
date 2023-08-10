@@ -32,6 +32,6 @@ def csv_to_sql(folder_path, output_sql_file):
     conn.close()
 
 folder_path = '.' # Replace with the path to the folder containing the CSV files
-output_sql_file = 'data.sql'
+output_sql_file = 'data.sqlite'
 csv_to_sql(folder_path, output_sql_file)
 print(f'{output_sql_file} has been created with tables from CSV files.')
