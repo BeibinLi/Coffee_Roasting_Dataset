@@ -39,3 +39,10 @@ df = df[df['bean_type'] == {{VALUE-BEAN-TYPE}}]
 df = df[df['country'] == {{VALUE-COUNTRY}}]
 print(df['quantity'].sum())
 TYPE: demand-increase
+
+
+
+
+
+## Requirement for dataset
+All the code should be run from the root of dataset, so we need to change the paths.
