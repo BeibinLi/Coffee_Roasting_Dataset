@@ -1,6 +1,6 @@
-from supplier import Supplier
-from roastery import Roastery
-from cafe import Cafe
+from .supplier import Supplier
+from .roastery import Roastery
+from .cafe import Cafe
 
 class DistributionNetwork:
     def __init__(self):

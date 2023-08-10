@@ -1,5 +1,5 @@
 from gurobipy import GRB, Model
-from DistributionNetwork import DistributionNetwork
+from .distribution_network import DistributionNetwork
 import os
 import pdb
 
