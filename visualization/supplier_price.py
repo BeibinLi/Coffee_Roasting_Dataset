@@ -13,7 +13,7 @@ if args.id is None and args.name is None:
 
 if args.id is None:
     # Get the supplier ID from the name
-    suppliers = pd.read_csv('../database/suppliers.csv')
+    suppliers = pd.read_csv('database/supplier.csv')
     rows = (suppliers['contact_name'] == args.name)
     
     if sum(rows) == 0:

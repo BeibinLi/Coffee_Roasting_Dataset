@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 # Load the customer data
 df = pd.read_csv('database/customer.csv')
