@@ -1,0 +1,51 @@
+supplier_id,contact_name,country,city,phone_number,address,max_purchase_this_year,unit_price
+1,Alexander Bowers,Jamaica,Blue Mountains,559.889.1722x4195,5926 Murray Estate,80246,1.72
+2,Diana Lane,Ethiopia,Addis Ababa,705-681-3931,81405 Brandon Summit Suite 564,45,3.78
+3,João Felipe Novaes,Brazil,Sao Paulo,+55 51 4715 3586,"Distrito Sales, 18",3,4.43
+4,Vicky Mustofa,Indonesia,Java,+62 (507) 429 2746,Jalan K.H. Wahid Hasyim No. 979,76739,3.94
+5,"R. Ian Mandala, M.Kom.",Indonesia,Sumatra,+62-58-664-5398,Jalan Medokan Ayu No. 7,22953,4.81
+6,尹坤,China,Yunnan,13916757965,银川街u座,3,3.39
+7,Bianca Walker,Ethiopia,Yirgacheffe,+1-548-269-4160x5684,61354 Garza Vista Suite 940,96907,4.04
+8,Piedad Contreras,Colombia,Medellin,(+57)3242848749,Carrera 88 # 79-4,93922,3.44
+9,裴芳,China,Guangdong,13257198918,郑路t座,22,3.11
+10,Lisa Harris,Ethiopia,Sidamo,(830)926-7768x4598,1549 Christopher Ridge,41676,4.71
+11,Jonathan James,Ethiopia,Addis Ababa,991.695.4384x8272,344 Williams Mission Apt. 623,99,4.51
+12,Monica Peters,Ethiopia,Addis Ababa,766.313.4448x073,11108 Monique Junctions Apt. 860,89567,4.91
+13,Daliono Mandala,Indonesia,Java,(003) 081 0752,Gg. PHH. Mustofa No. 292,91027,2.16
+14,Michael Brown,Ethiopia,Sidamo,+1-550-269-6548,586 Sullivan Corners Apt. 779,88259,4.46
+15,Robert Goodman,Ethiopia,Yirgacheffe,7989099075,44681 Robles Rapid,3549,2.35
+16,Nicholas Kane,Ethiopia,Yirgacheffe,675-264-2858x600,18306 Reeves Crest,18,3.42
+17,赵帆,China,Guangdong,13171520729,田街r座,66,1.88
+18,田桂香,China,Fujian,18543857739,长春街k座,39386,3.21
+19,David Barnes,Vietnam,Hanoi,567-833-3413x326,712 Stephanie Coves,31,4.47
+20,Lisa Hill,Ethiopia,Yirgacheffe,001-673-502-9318,19221 Cowan Plain,16942,2.29
+21,Jennifer Schroeder,Vietnam,Hanoi,794-266-4383x20190,47445 Robin Valley Suite 971,54007,4.51
+22,Lucía Lozano,Colombia,Medellin,+573294980413,Transversal 54 Bis N # 99J-84 Sur,35,4.47
+23,刘红霞,China,Guangdong,18179281768,郎街G座,27,3.42
+24,John Wood,Vietnam,Hanoi,928.849.7642x13378,31519 Rogers Isle,85,4.84
+25,Andrew Riggs,Jamaica,Blue Mountains,597-908-3032x96391,5275 Oconnell Springs,56179,2.99
+26,María Bernal Narváez,Colombia,Bogota,573110149766,Carrera 80I # 5-2 Este,37,3.44
+27,Darimin Mustofa,Indonesia,Java,+62 (70) 367 0126,Gg. Dipenogoro No. 8,36,2.71
+28,游鹏,China,Yunnan,14530224085,石家庄街X座,3,2.3
+29,徐健,China,Fujian,18838251230,杨街h座,18160,1.82
+30,"Sarah Thamrin, S.Sos",Indonesia,Sumatra,084 933 9544,Jl. Sadang Serang No. 66,94,1.75
+31,Hailey Berry,Vietnam,Hanoi,001-705-684-1820x8040,22996 Stacy Court,75,2.48
+32,Daryani Padmasari,Indonesia,Sumatra,+62 (0829) 196 1948,Gg. Pasir Koja No. 695,62,2.71
+33,Maya Suryono,Indonesia,Jakarta,(0570) 503 6860,Jalan Tubagus Ismail No. 1,26,4.83
+34,"drg. Ivan Permadi, S.T.",Indonesia,Sumatra,087 121 5497,Gg. Lembong No. 73,29519,3.96
+35,José Herrera Agudelo,Colombia,Armenia,01 8005 551 554,Tr. 52 # 3-7,3,2.85
+36,Lalita Halim,Indonesia,Java,0811498668,Jalan Moch. Toha No. 0,25916,2.39
+37,Dra. Agatha da Rocha,Brazil,Sao Paulo,0300-022-3948,"Jardim de Gomes, 791",43222,4.91
+38,Hernán Andrés Peña,Colombia,Medellin,573141997301,Calle 14 # 81-3,15,4.02
+39,周玲,China,Fujian,14705773211,刘路O座,51,2.99
+40,Martha Sara Sarmiento,Colombia,Medellin,+57 307 819 42 40,Avenida carrera 140 # 9-67,63114,3.93
+41,Harold Hughes,Vietnam,Ho Chi Minh City,001-271-532-7793x84940,1724 Dustin Junction,65,2.88
+42,张想,China,Yunnan,14507999121,永安街p座,42687,4.08
+43,Omar Rios,Jamaica,Blue Mountains,3683417029,0057 Ford Mission,87565,2.57
+44,"Nova Prakasa, M.Ak",Indonesia,Jakarta,+62 (19) 577-4658,Jl. Asia Afrika No. 97,93,4.1
+45,Kani Wibisono,Indonesia,Java,+62 (0655) 634 0115,Jalan Pasteur No. 0,13126,3.46
+46,Augusto Salas Lozano,Colombia,Bogota,573239338347,Tr. 121G # 8Y-8 Este,21837,4.65
+47,Sarah Payne,Vietnam,Ho Chi Minh City,001-553-805-2045,5382 Garcia Courts,86,4.91
+48,José José Moreno,Colombia,Bogota,573084458389,Carrera 1ª # 15-9 Este,35,2.22
+49,"Cut Farhunnisa Sinaga, S.I.Kom",Indonesia,Java,(0872) 368-3214,Gang Kebonjati No. 823,49285,4.78
+50,David Dalton,Ethiopia,Yirgacheffe,780.348.6961x9665,117 David Mews Apt. 332,50,2.64

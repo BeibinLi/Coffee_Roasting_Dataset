@@ -14,12 +14,12 @@ from constant import roastery_sites, num_products, last_year
 
 def generate(csv_file_path):
     files = glob.glob("*")
-    assert "customer.csv" in files, "Please run database/gen_customer.py first"
+    assert "cafe.csv" in files, "Please run database/gen_cafe.py first"
     assert "supplier.csv" in files, "Please run database/gen_supplier.py first"
     assert "sell_price_history.csv" in files, "Please run database/gen_sales_price_history.py first"
 
     supply = pd.read_csv("supplier.csv")
-    customer = pd.read_csv("customer.csv")
+    customer = pd.read_csv("cafe.csv")
     price = pd.read_csv("sell_price_history.csv")
 
     # Number of roasteries to generate
