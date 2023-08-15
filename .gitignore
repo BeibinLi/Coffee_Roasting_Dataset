@@ -1,5 +1,4 @@
 *.pkl
-*.json
 *.pyc
 *.log
 out/*
@@ -8,7 +7,6 @@ out/*
 *.swp
 *.swo
 *.ipynb
-*.csv
 *.gurobi
 out_*/*
 out*/*
@@ -23,7 +21,6 @@ throughput_test/**
 *.gurobi
 *.pyc
 *.sqlite
-
 
 images/
 
