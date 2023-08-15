@@ -6,14 +6,8 @@ import pycountry
 from country_code_to_locale import country_code_to_locale
 from constant import customer_sites
 
-file_name = "customer.csv"
+file_name = "cafe.csv"
 random.seed(23)
-
-
-payment_type = ["credit", "debit", "cash"]
-roast_type = ["light", "dark"]
-subscription_type = ["weekly", "monthly", "yearly"]
-bean_type = ["arabica", "robusta", "liberica", "excelsa"]
 
 used_names = set()
 
@@ -22,9 +16,8 @@ default_fake = Faker("en")
 with open(file_name, 'w', newline='', encoding="utf-8") as file:
     writer = csv.writer(file)
     # Write the header
-    writer.writerow(['customer_id', 'cafe_name', 'contact_name', 'open_date', 'member_since',
-                    'phone_number', 'address', 'city', 'country',
-                    'email', 'fav_payment_type',  'fav_subscription_type'])
+    writer.writerow(['cafe_id', 'cafe_name', 'proprietor_name', 'open_date',
+                    'phone_number', 'address', 'city', 'country', 'email'])
 
     for i, site in enumerate(customer_sites):
         country = pycountry.countries.search_fuzzy(site['country'])[0]
@@ -52,16 +45,12 @@ with open(file_name, 'w', newline='', encoding="utf-8") as file:
             phone_number = default_fake.phone_number()
         address = fake.street_address()
         email = fake.email()
-        fav_payment_type = random.choice(payment_type)
-        fav_subscription_type = random.choice(subscription_type)
 
         writer.writerow([
-            i + 1, site["name"], name, dob, member_since,
+            i + 1, site["name"], name, member_since,
             phone_number,
             address, site['city'], site['country'],
             email,
-            fav_payment_type,
-            fav_subscription_type,
         ])
 
 
