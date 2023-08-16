@@ -25,3 +25,5 @@ throughput_test/**
 images/
 
 */.diskcache/**
+cache.*
+.diskcache/**

@@ -8,6 +8,12 @@ data/Employee Benefits.md,3120,md
 data/Financial Plan.md,7467,md
 data/Manual%3A How to Negotiate with Coffee Bean Suppliers and Cafe Shops.md,17308,md
 data/solver/main.py,1143,py
+data/solver/README.md,444,md
+data/solver/test/test_cafe.py,343,py
+data/solver/test/test_roastery.py,379,py
+data/solver/test/test_distribution_network.py,464,py
+data/solver/test/test_plan_optimizer.py,181,py
+data/solver/test/test_supplier.py,329,py
 data/solver/src/__init__.py,0,py
 data/solver/src/distribution_network.py,675,py
 data/solver/src/cafe.py,498,py
@@ -146,6 +152,11 @@ data/visualization/supplier_on_map.py,383,py
 data/visualization/membership_duration.py,236,py
 data/visualization/bean_price.py,466,py
 data/visualization/supplier_price.py,497,py
+data/visualization/test/test_membership_duration.py,171,py
+data/visualization/test/test_supplier_price.py,75,py
+data/visualization/test/test_salary.py,137,py
+data/visualization/test/test_bean_price.py,146,py
+data/visualization/test/test_supplier_on_map.py,89,py
 data/database/roastery_2013.csv,18303,csv
 data/database/roastery_2020.csv,18303,csv
 data/database/roastery_2021.csv,18303,csv

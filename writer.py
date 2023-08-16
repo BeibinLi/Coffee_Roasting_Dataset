@@ -194,7 +194,8 @@ for sec_num, sec_title in SEC_TITLES.items():
                       model=base_model,
                       prev_msgs=messages,
                       temperature=0,
-                      top_p=1)
+                      top_p=1,
+                      max_tokens=10000)
     reply = reply[0]
     print(colored(f"Section {sec_num} {sec_title}:", "green"), f"\n{reply}")
 
