@@ -1,0 +1,168 @@
+file,tokens,suffix
+data/roast manual.md,39674,md
+data/Quality Control Manuals.md,10098,md
+data/Marketing Strategies.md,5642,md
+data/safety.md,2515,md
+data/User Questions.md,94,md
+data/Employee Benefits.md,3120,md
+data/Financial Plan.md,7467,md
+data/Manual%3A How to Negotiate with Coffee Bean Suppliers and Cafe Shops.md,17308,md
+data/solver/main.py,1143,py
+data/solver/src/__init__.py,0,py
+data/solver/src/distribution_network.py,675,py
+data/solver/src/cafe.py,498,py
+data/solver/src/roastery.py,795,py
+data/solver/src/plan_optimizer.py,1475,py
+data/solver/src/supplier.py,599,py
+data/solver/output/solution_2020_12.md,65408,md
+data/solver/output/solution_2019_9.md,65423,md
+data/solver/output/solution_2019_3.md,65469,md
+data/solver/output/solution_2023_4.md,65434,md
+data/solver/output/solution_2019_2.md,65451,md
+data/solver/output/solution_2017_6.md,65474,md
+data/solver/output/solution_2018_3.md,65330,md
+data/solver/output/solution_2018_12.md,65434,md
+data/solver/output/solution_2016_8.md,65488,md
+data/solver/output/solution_2022_1.md,65386,md
+data/solver/output/solution_2019_11.md,65415,md
+data/solver/output/solution_2015_4.md,65401,md
+data/solver/output/solution_2022_10.md,65467,md
+data/solver/output/solution_2023_2.md,65423,md
+data/solver/output/solution_2021_1.md,65401,md
+data/solver/output/solution_2019_1.md,65395,md
+data/solver/output/solution_2017_7.md,65399,md
+data/solver/output/solution_2016_5.md,65500,md
+data/solver/output/solution_2020_10.md,65383,md
+data/solver/output/solution_2016_11.md,65425,md
+data/solver/output/solution_2023_5.md,65471,md
+data/solver/output/solution_2020_8.md,65402,md
+data/solver/output/solution_2015_5.md,65428,md
+data/solver/output/solution_2017_1.md,65455,md
+data/solver/output/solution_2021_7.md,65422,md
+data/solver/output/solution_2016_7.md,65497,md
+data/solver/output/solution_2017_2.md,65460,md
+data/solver/output/solution_2019_4.md,65426,md
+data/solver/output/solution_2021_9.md,65460,md
+data/solver/output/solution_2016_1.md,65458,md
+data/solver/output/solution_2017_8.md,65462,md
+data/solver/output/solution_2017_11.md,65425,md
+data/solver/output/solution_2018_5.md,65393,md
+data/solver/output/solution_2020_3.md,65372,md
+data/solver/output/solution_2018_1.md,65415,md
+data/solver/output/solution_2015_7.md,65446,md
+data/solver/output/solution_2023_12.md,65403,md
+data/solver/output/solution_2022_5.md,65424,md
+data/solver/output/solution_2020_9.md,65439,md
+data/solver/output/solution_2020_7.md,65400,md
+data/solver/output/solution_2015_8.md,65462,md
+data/solver/output/solution_2018_2.md,65392,md
+data/solver/output/solution_2022_12.md,65398,md
+data/solver/output/solution_2022_3.md,65362,md
+data/solver/output/solution_2020_1.md,65437,md
+data/solver/output/solution_2022_4.md,65400,md
+data/solver/output/solution_2023_1.md,65450,md
+data/solver/output/solution_2017_5.md,65442,md
+data/solver/output/solution_2021_12.md,65433,md
+data/solver/output/solution_2019_10.md,65393,md
+data/solver/output/solution_2016_2.md,65430,md
+data/solver/output/solution_2017_3.md,65434,md
+data/solver/output/solution_2023_7.md,65403,md
+data/solver/output/solution_2021_10.md,65398,md
+data/solver/output/solution_2019_12.md,65393,md
+data/solver/output/solution_2016_3.md,65535,md
+data/solver/output/solution_2023_9.md,65461,md
+data/solver/output/solution_2018_9.md,65434,md
+data/solver/output/solution_2022_6.md,65449,md
+data/solver/output/solution_2017_9.md,65494,md
+data/solver/output/solution_2019_6.md,65407,md
+data/solver/output/solution_2020_2.md,65398,md
+data/solver/output/solution_2021_11.md,65396,md
+data/solver/output/solution_2018_6.md,65433,md
+data/solver/output/solution_2015_9.md,65468,md
+data/solver/output/solution_2021_6.md,65448,md
+data/solver/output/solution_2022_2.md,65366,md
+data/solver/output/solution_2016_4.md,65503,md
+data/solver/output/solution_2015_3.md,65449,md
+data/solver/output/solution_2019_8.md,65499,md
+data/solver/output/solution_2016_12.md,65433,md
+data/solver/output/solution_2015_6.md,65468,md
+data/solver/output/solution_2020_5.md,65358,md
+data/solver/output/solution_2021_3.md,65406,md
+data/solver/output/solution_2021_4.md,65378,md
+data/solver/output/solution_2015_12.md,65442,md
+data/solver/output/solution_2023_3.md,65401,md
+data/solver/output/solution_2023_11.md,65430,md
+data/solver/output/solution_2023_6.md,65455,md
+data/solver/output/solution_2022_9.md,65442,md
+data/solver/output/solution_2015_11.md,65518,md
+data/solver/output/solution_2023_8.md,65370,md
+data/solver/output/solution_2020_4.md,65398,md
+data/solver/output/solution_2015_2.md,65447,md
+data/solver/output/solution_2015_1.md,65452,md
+data/solver/output/solution_2018_11.md,65414,md
+data/solver/output/solution_2022_7.md,65390,md
+data/solver/output/solution_2016_9.md,65475,md
+data/solver/output/solution_2016_6.md,65442,md
+data/solver/output/solution_2020_11.md,65427,md
+data/solver/output/solution_2016_10.md,65501,md
+data/solver/output/solution_2022_8.md,65389,md
+data/solver/output/solution_2015_10.md,65443,md
+data/solver/output/solution_2021_5.md,65399,md
+data/solver/output/solution_2023_10.md,65434,md
+data/solver/output/solution_2018_7.md,65378,md
+data/solver/output/solution_2022_11.md,65397,md
+data/solver/output/solution_2021_2.md,65449,md
+data/solver/output/solution_2020_6.md,65371,md
+data/solver/output/solution_2017_10.md,65472,md
+data/solver/output/solution_2018_4.md,65426,md
+data/solver/output/solution_2017_12.md,65435,md
+data/solver/output/solution_2018_8.md,65466,md
+data/solver/output/solution_2017_4.md,65464,md
+data/solver/output/solution_2018_10.md,65412,md
+data/solver/output/solution_2021_8.md,65459,md
+data/solver/output/solution_2019_5.md,65450,md
+data/solver/output/solution_2019_7.md,65461,md
+data/public/our_coffee.md,929,md
+data/public/service_and_price.md,2157,md
+data/public/merged.md,672,md
+data/public/contact_info.md,280,md
+data/public/cafe.md,1574,md
+data/public/our_company.md,398,md
+data/public/newsletter/newsletter.md,791,md
+data/public/newsletter/2021 Feb/2.md,633,md
+data/public/newsletter/2021 Feb/1.md,586,md
+data/public/newsletter/2021 Apr/3.md,626,md
+data/public/newsletter/2021 Apr/2.md,674,md
+data/public/newsletter/2021 Apr/1.md,481,md
+data/public/newsletter/2021 Apr/4.md,706,md
+data/public/newsletter/2021 Jun/1.md,621,md
+data/public/newsletter/2021 Mar/3.md,677,md
+data/public/newsletter/2021 Mar/2.md,616,md
+data/public/newsletter/2021 Mar/1.md,560,md
+data/public/newsletter/2021 May/2.md,649,md
+data/public/newsletter/2021 May/1.md,670,md
+data/visualization/salary.py,213,py
+data/visualization/supplier_on_map.py,383,py
+data/visualization/membership_duration.py,236,py
+data/visualization/bean_price.py,466,py
+data/visualization/supplier_price.py,497,py
+data/database/roastery_2013.csv,18303,csv
+data/database/roastery_2020.csv,18303,csv
+data/database/roastery_2021.csv,18303,csv
+data/database/roastery_2017.csv,18303,csv
+data/database/roastery_2012.csv,18303,csv
+data/database/roastery_2010.csv,18303,csv
+data/database/cafe.csv,5137,csv
+data/database/roastery_2011.csv,18303,csv
+data/database/roastery_2018.csv,18303,csv
+data/database/roastery_2016.csv,18303,csv
+data/database/roastery_2019.csv,18303,csv
+data/database/roastery_2023.csv,18303,csv
+data/database/roastery_2015.csv,18303,csv
+data/database/roastery_2022.csv,18303,csv
+data/database/demand_history.csv,4356012,csv
+data/database/supplier.csv,1876,csv
+data/database/employee.csv,4571,csv
+data/database/sell_price_history.csv,78266,csv
+data/database/supply_price_history.csv,66011,csv
+data/database/roastery_2014.csv,18303,csv
