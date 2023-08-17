@@ -14,7 +14,7 @@ import os
 # base_model = "gpt-35-turbo"
 base_model = "gpt-4-32k"
 langauges = [
-              ("c++", ".cpp"),
+              # ("c++", ".cpp"),
               ("C#", ".cs"), 
               ("Java", ".java")]
 
@@ -25,6 +25,7 @@ max_generation_tokens = 10000
 
 #%% Global variables
 api = get_llm()
+n_calls = 0
 
 encoder = tiktoken.encoding_for_model(base_model.replace("35", "3.5").replace("-32k", ""))
 max_token_len = 4000 if base_model.find("4") >= 0 else 2000
@@ -33,6 +34,7 @@ files_written = []
 
 # %%
 def rewrite(filename:str, language:str, ext_name:str, memory: list):
+    global n_calls
     code = open(filename, "r", encoding="utf-8").read()
     origin_ext = "." + filename.split(".")[-1]
     # out_filename = os.path.basename(filename).replace(origin_ext, ext_name)
@@ -44,16 +46,6 @@ Please rewrite the following code ({filename}) into {language}
 ```
 {code}
 ```
-
-For the output, please use the format
-OUTPUT_FILENAME: new_filename_goes_here
-```{ext_name}
-new code goes here
-with detailed comments
-```
-
-It is ok to write multiple files (e.g., header, source files, etc). 
-You can writer whatever you want, and just give me the results all at once~!
 """
     response = api.reply("user", prompt,
                       num_response=1,
@@ -62,21 +54,26 @@ You can writer whatever you want, and just give me the results all at once~!
                       prev_msgs=memory,
                       temperature=0,
                       top_p=1, max_tokens=max_generation_tokens)
-    
+    n_calls += 1
+    print("Number of calls:", n_calls)
     r0 = response[0]
     memory.append(("user", prompt))
     memory.append(("assistant", r0))
 
     match = re.findall(r"OUTPUT_FILENAME:(.+?)\n```(\w*)\n(.*?)\n```", r0, flags=re.DOTALL)
     
-    if len(match) == 0 and len(code).strip().rstrip() > 0:
+    if len(match) == 0 and code.strip().rstrip() != "":
         # maybe, the result is too long.
         pdb.set_trace()
 
     for out_filename, new_lan, new_code in match:
         out_filename = out_filename.strip().rstrip()
-        out_filename = re.findall(f"(\w+)", out_filename)[0]
-        out_filename = os.path.join(os.path.dirname(filename), ext_name[1:], out_filename)
+        out_filename = re.findall(f"(\w+\.\w+)", out_filename)[0]
+
+        # Special handling of the folder. 
+        # TODO: LLM should give the correct path.
+        out_filename = os.path.join(os.path.dirname(filename).replace("/test/", "/"),
+                                     ext_name[1:], out_filename)
         files_written.append(out_filename)
         print(colored("Writing: " + out_filename, "green"))
         try:
@@ -95,10 +92,20 @@ def pop_memory(memory):
             memory = memory[:i]
             break
 
-
 #%% Main loop
 for language, ext in langauges:
-    memory = [("system", f"You are writing {language} code."), ]
+    memory = [("system", f"""You are writing {language} code.
+               
+For the output, please use the format
+OUTPUT_FILENAME: new_filename_goes_here
+```language
+new code goes here
+with detailed comments
+```
+
+It is ok to write multiple files (e.g., header, source files, etc). 
+You can writer whatever you want, and just give me the results all at once~!
+"""), ]
 
     # Iterate all files in "data" folder recursively
     for root, dirs, files in os.walk(input_folder):
