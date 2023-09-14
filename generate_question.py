@@ -85,6 +85,19 @@ def _random_block(filename: str, n_max_words: int) -> str:
     return ''.join(selected_lines)
 
 
+def norm_path(filename):
+    # Check if the string contains any non-alphanumeric characters
+    if any(not ch.isalnum() and ch not in [".", "_", "-", "/"] for ch in filename):
+        return f'"{filename}"'
+    return filename
+
+
+def unnorm_path(filename):
+    if filename[0] in ["\'", "\""] and filename[0] == filename[-1]:
+        return unnorm_path(filename[1:-1])
+    return filename
+
+
 def commands_to_reach_destination(start: str,
                                   destination: str,
                                   folder_find_acc: float = 0.8) -> List[str]:
@@ -126,16 +139,17 @@ def commands_to_reach_destination(start: str,
         if os.path.realpath(destination) in [
                 os.path.realpath(os.path.join(curr, fname)) for fname in files
         ]:
-            correct_command = f"cat {os.path.basename(destination)}"
+            correct_command = f"cat {norm_path(os.path.basename(destination))}"
         else:
             # If we haven't found the file, we should try folders
             correct_path = os.path.relpath(destination, curr)
-            correct_command = f"cd {correct_path.split('/')[0]}"
+            cd_to = correct_path.split('/')[0]
+            correct_command = f"cd {norm_path(cd_to)}"
 
         # List all possible actions
         all_possible_commands = [
-            f"cat {os.path.basename(fname)}" for fname in files
-        ] + [f"cd {os.path.basename(folder)}" for folder in folders]
+            f"cat {norm_path(os.path.basename(fname))}" for fname in files
+        ] + [f"cd {norm_path(os.path.basename(folder))}" for folder in folders]
         if curr != start:
             all_possible_commands += ["cd .."]
 
@@ -145,10 +159,11 @@ def commands_to_reach_destination(start: str,
             commands.append(random.choice(all_possible_commands))
 
         if commands[-1].startswith("cd "):
-            curr = os.path.join(curr, commands[-1][3:])
+            dirname = unnorm_path(commands[-1][3:])
+            curr = os.path.join(curr,  dirname)
             curr = os.path.realpath(curr)
         else:
-            cat_fname = commands[-1].split()[-1]
+            cat_fname = unnorm_path(commands[-1].split()[-1])
             if os.path.realpath(os.path.join(
                     curr, cat_fname)) == os.path.realpath(destination):
                 break
@@ -206,8 +221,8 @@ def optimal_path(start: str, destination: str) -> List[str]:
 
     folders = os.path.relpath(destination, start).split("/")
     commands = [
-        cmd for dirname in folders[:-1] for cmd in ["ls", f"cd {dirname}"]
-    ] + ["ls", f"cat {folders[-1]}"]
+        cmd for dirname in folders[:-1] for cmd in ["ls", f"cd {norm_path(dirname)}"]
+    ] + ["ls", f"cat {norm_path(folders[-1])}"]
 
     return commands
 
@@ -272,22 +287,6 @@ def gen(root: str, n_files: int = 10, outname: str = "out.json"):
     with open(outname, "w") as f:
         json.dump(rst, f, indent=2)
 
-
-class QuestionGenerator:
-
-    def __init__(self, root):
-        self.root = root
-        questions = {}  # question -> list of actions
-
-    def generate(self, n: int):
-        # generate n questions
-        return
-
-    def dump(self, path: str):
-        return
-
-    def load(self, path: str):
-        return
 
 
 if __name__ == "__main__":

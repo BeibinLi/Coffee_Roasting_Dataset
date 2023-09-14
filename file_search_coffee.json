@@ -1,0 +1,742 @@
+[
+  {
+    "question": "What is the name of the coffee that is the best-selling and most-loved at Opti Coffee?\n",
+    "answer": "The name of the coffee that is the best-selling and most-loved at Opti Coffee is the signature coffee.",
+    "commands": [
+      "ls",
+      "cat \"Quality Control Manuals.md\"",
+      "ls",
+      "cd public",
+      "ls",
+      "cat our_coffee.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat our_coffee.md"
+    ],
+    "filename": "public/our_coffee.md"
+  },
+  {
+    "question": "What is Opti Coffee known for?\n",
+    "answer": "Opti Coffee is known for its signature coffee, which is the best-selling and most-loved coffee at the shop.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat our_coffee.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat our_coffee.md"
+    ],
+    "filename": "public/our_coffee.md"
+  },
+  {
+    "question": "What is the philosophy of [Your Company Name] when it comes to sourcing coffee?\n",
+    "answer": "[Your Company Name] believes in responsible sourcing, working closely with farmers and producers to ensure not only the finest quality but also sustainability and ethical practices.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd ..",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "filename": "public/service_and_price.md"
+  },
+  {
+    "question": "What is the purpose of [Your Company Name]?\n",
+    "answer": "[Your Company Name] is a gateway to the global coffee community, offering a collection of coffee that allows you to explore a world of flavors, textures, and aromas.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "filename": "public/service_and_price.md"
+  },
+  {
+    "question": "What are some of the most popular coffee bean sources?\n",
+    "answer": "Some of the most popular coffee bean sources include Brazil, Colombia, Ethiopia, Vietnam, Honduras, Guatemala, Costa Rica, Yemen, Mexico, Peru, Kenya, Jamaica, Indonesia, and more.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "filename": "public/service_and_price.md"
+  },
+  {
+    "question": "What are the different roasting styles?\n",
+    "answer": "The different roasting styles include light roast, medium roast, medium-dark roast, dark roast, cold brew roasting, single origin roasting, and blending.",
+    "commands": [
+      "ls",
+      "cat \"roast manual.md\"",
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "filename": "public/service_and_price.md"
+  },
+  {
+    "question": "What is the price of a bag of coffee from Yemen?\n",
+    "answer": "The price of a bag of coffee from Yemen is $30.00 per bag (1 lb).",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd ..",
+      "ls",
+      "cat our_coffee.md",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat service_and_price.md"
+    ],
+    "filename": "public/service_and_price.md"
+  },
+  {
+    "question": "What does the `get_coffee_demand` method do?\n",
+    "answer": "The `get_coffee_demand` method returns the demand for a specific type of coffee.",
+    "commands": [
+      "ls",
+      "cd solver",
+      "ls",
+      "cd src",
+      "ls",
+      "cat cafe.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd solver",
+      "ls",
+      "cd src",
+      "ls",
+      "cat cafe.py"
+    ],
+    "filename": "solver/src/cafe.py"
+  },
+  {
+    "question": "What does the `display_info` method do?\n",
+    "answer": "The `display_info` method displays information about the cafe, including its name, location, contact, and coffee demand.",
+    "commands": [
+      "ls",
+      "cat \"Marketing Strategies.md\"",
+      "ls",
+      "cd solver",
+      "ls",
+      "cat main.py",
+      "ls",
+      "cd src",
+      "ls",
+      "cat __init__.py",
+      "ls",
+      "cat cafe.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd solver",
+      "ls",
+      "cd src",
+      "ls",
+      "cat cafe.py"
+    ],
+    "filename": "solver/src/cafe.py"
+  },
+  {
+    "question": "What is the string representation of the Cafe object?\n",
+    "answer": "The string representation of the Cafe object is `Cafe(name={self.name}, location={self.location}, contact={self.contact})`.",
+    "commands": [
+      "ls",
+      "cd solver",
+      "ls",
+      "cd src",
+      "ls",
+      "cat cafe.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd solver",
+      "ls",
+      "cd src",
+      "ls",
+      "cat cafe.py"
+    ],
+    "filename": "solver/src/cafe.py"
+  },
+  {
+    "question": "What is the purpose of the code?\n",
+    "answer": "The purpose of the code is to read a CSV file containing employee data, plot a graph of the salaries of the employees, and save the plot as an image file.",
+    "commands": [
+      "ls",
+      "cd database",
+      "ls",
+      "cd ..",
+      "ls",
+      "cd visualization",
+      "ls",
+      "cd cpp",
+      "ls",
+      "cd ..",
+      "ls",
+      "cat salary.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "filename": "visualization/salary.py"
+  },
+  {
+    "question": "What type of file is being read in the code?\n",
+    "answer": "The code is reading a CSV file.",
+    "commands": [
+      "ls",
+      "cat \"Financial Plan.md\"",
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "filename": "visualization/salary.py"
+  },
+  {
+    "question": "What is the name of the CSV file being read in the code?\n",
+    "answer": "The name of the CSV file is 'employee.csv'.",
+    "commands": [
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "filename": "visualization/salary.py"
+  },
+  {
+    "question": "What is the name of the image file that is being saved?\n",
+    "answer": "The name of the image file that is being saved is 'salary.png'.",
+    "commands": [
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd visualization",
+      "ls",
+      "cat salary.py"
+    ],
+    "filename": "visualization/salary.py"
+  },
+  {
+    "question": "What is the Grounds for Health campaign?\n",
+    "answer": "The Grounds for Health campaign is an initiative that aims to improve cervical health for women in coffee-growing regions.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Apr\"",
+      "ls",
+      "cat 3.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Apr\"",
+      "ls",
+      "cat 3.md"
+    ],
+    "filename": "public/newsletter/2021 Apr/3.md"
+  },
+  {
+    "question": "Why is Opti Coffee involved in the Grounds for Health campaign?\n",
+    "answer": "Opti Coffee is involved in the Grounds for Health campaign because it recognizes the integral role that women play in the coffee industry's rich tapestry and is committed to making a tangible difference in the lives of those who cultivate the beans that grace our cups.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Apr\"",
+      "ls",
+      "cat 3.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Apr\"",
+      "ls",
+      "cat 3.md"
+    ],
+    "filename": "public/newsletter/2021 Apr/3.md"
+  },
+  {
+    "question": "What does the Grounds for Health campaign do for women in coffee-growing communities?\n",
+    "answer": "The Grounds for Health campaign channels resources, education, and much-needed medical attention to women in coffee-growing communities, offering a lifeline in the fight against cervical cancer. Through awareness-building initiatives, early detection efforts, and access to vital treatments, the lives of these women are transformed \u2013 not just as coffee producers, but as vibrant individuals with the potential to shape their families, communities, and futures.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Apr\"",
+      "ls",
+      "cat 3.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Apr\"",
+      "ls",
+      "cat 3.md"
+    ],
+    "filename": "public/newsletter/2021 Apr/3.md"
+  },
+  {
+    "question": "What award did Opti Coffee win at the Specialty Coffee Association Roaster Competition?\n",
+    "answer": "Opti Coffee won the gold medal at the Specialty Coffee Association Roaster Competition.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cd ..",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "Who named Opti Coffee's Ethiopia Yirgacheffe one of the best coffees of the year?\n",
+    "answer": "Coffee Review named Opti Coffee's Ethiopia Yirgacheffe one of the best coffees of the year.",
+    "commands": [
+      "ls",
+      "cat \"roast manual.md\"",
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "What certification did Opti Coffee's Colombia Supremo earn?\n",
+    "answer": "Opti Coffee's Colombia Supremo earned the Rainforest Alliance Certified seal for its environmental and social standards.",
+    "commands": [
+      "ls",
+      "cat \"Marketing Strategies.md\"",
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "Who said \"Opti Coffee is a shining example of how to roast coffee with passion, skill, and integrity. Their coffees are complex, balanced, and delicious, and their service is impeccable.\"?\n",
+    "answer": "James Hoffman, author of The World Atlas of Coffee, said \"Opti Coffee is a shining example of how to roast coffee with passion, skill, and integrity. Their coffees are complex, balanced, and delicious, and their service is impeccable.\"",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Jun\"",
+      "ls",
+      "cd ..",
+      "ls",
+      "cd \"2021 Mar\"",
+      "ls",
+      "cd ..",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "What is Opti Coffee's new flagship store going to feature?\n",
+    "answer": "Opti Coffee's new flagship store in downtown Chicago is going to feature a state-of-the-art roastery, a spacious cafe, and a coffee education center.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "What is the Coffee Kids program?\n",
+    "answer": "The Coffee Kids program is a program that supports young coffee farmers in Latin America, Africa, and Asia, by providing them with training, mentorship, and resources.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "What is the Grounds for Health campaign?\n",
+    "answer": "The Grounds for Health campaign is a campaign that raises awareness and funds for cervical cancer prevention and treatment for women in coffee-growing communities.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "What is the 1% for the Planet network?\n",
+    "answer": "The 1% for the Planet network is a network that commits to donating 1% of its annual sales to environmental nonprofits.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 May\"",
+      "ls",
+      "cd ..",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cat newsletter.md"
+    ],
+    "filename": "public/newsletter/newsletter.md"
+  },
+  {
+    "question": "Where is the Seattle Cafe located?\n",
+    "answer": "The Seattle Cafe is located in the heart of downtown Seattle.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "filename": "public/cafe.md"
+  },
+  {
+    "question": "What is the signature brew of the Seattle Cafe?\n",
+    "answer": "The signature brew of the Seattle Cafe is the 'Emerald Drip', which offers a smooth, rich flavor with subtle hints of chocolate and hazelnut.",
+    "commands": [
+      "ls",
+      "cat safety.md",
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "filename": "public/cafe.md"
+  },
+  {
+    "question": "What is the ambiance of the Redmond Coffee Co. like?\n",
+    "answer": "The Redmond Coffee Co. has a contemporary space characterized by sleek steel furnishings, ambient lighting, and an open-concept layout.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "filename": "public/cafe.md"
+  },
+  {
+    "question": "What is the 'Techie Espresso'?\n",
+    "answer": "The 'Techie Espresso' is a double shot with a dash of caramel, which has become a local favorite at the Redmond Coffee Co.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "filename": "public/cafe.md"
+  },
+  {
+    "question": "What is the standout beverage at the Morning Cafe in Kirkland?\n",
+    "answer": "The standout beverage at the Morning Cafe in Kirkland is the 'Lakeside Mocha', which is a delightful concoction of dark chocolate, steamed milk, and a shot of espresso, topped with whipped cream and a drizzle of caramel.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md"
+    ],
+    "filename": "public/cafe.md"
+  },
+  {
+    "question": "What is Opti Coffee's achievement?\n",
+    "answer": "Opti Coffee's Colombia Supremo has earned the Rainforest Alliance Certified seal, which is a testament to their dedication to creating a positive impact on both the planet and its people.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cat our_coffee.md",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "filename": "public/newsletter/2021 Feb/1.md"
+  },
+  {
+    "question": "What does the Rainforest Alliance Certified seal stand for?\n",
+    "answer": "The Rainforest Alliance Certified seal stands as an emblem of assurance for environmentally-conscious consumers and serves as an inspiration for other coffee producers to embark on a similar journey towards sustainability.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "filename": "public/newsletter/2021 Feb/1.md"
+  },
+  {
+    "question": "What impact does Opti Coffee's achievement have on the coffee community?\n",
+    "answer": "Opti Coffee's achievement ignites a collective sense of optimism for a more sustainable and ethically-driven future in the coffee community.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd ..",
+      "ls",
+      "cd public",
+      "ls",
+      "cat cafe.md",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "filename": "public/newsletter/2021 Feb/1.md"
+  },
+  {
+    "question": "What does Opti Coffee's achievement prioritize?\n",
+    "answer": "Opti Coffee's achievement prioritizes the well-being of the environment and the prosperity of coffee-growing communities.",
+    "commands": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "optimal_path": [
+      "ls",
+      "cd public",
+      "ls",
+      "cd newsletter",
+      "ls",
+      "cd \"2021 Feb\"",
+      "ls",
+      "cat 1.md"
+    ],
+    "filename": "public/newsletter/2021 Feb/1.md"
+  }
+]
