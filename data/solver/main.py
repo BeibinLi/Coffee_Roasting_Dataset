@@ -31,7 +31,7 @@ for index, row in supplier_df.iterrows():
 demand_history_df = pd.read_csv(base_dir + 'demand_history.csv')
 product_ids = demand_history_df.product_id.unique()
 demand_df = demand_history_df[(demand_history_df.year == year) & (demand_history_df.month == month)]
-customer_df = pd.read_csv(base_dir + 'customer.csv')
+cafe_df = pd.read_csv(base_dir + 'cafe.csv')
 cafe_map = {} # cafe id: cafe object
 
 
@@ -39,13 +39,13 @@ income = 0
 sell_price_df = pd.read_csv(base_dir + f'sell_price_history.csv')
 sprice_df = sell_price_df[(sell_price_df.year == year) & (sell_price_df.month == month)]
 for index, row in demand_df.iterrows():
-    customer_id = row["customer_id"]
-    if customer_id not in cafe_map:
-        cafe_row = customer_df[customer_df["customer_id"] == customer_id].iloc[0]
-        cafe_map[customer_id] = Cafe(name=cafe_row["cafe_name"], 
+    cafe_id = row["customer_id"]
+    if cafe_id not in cafe_map:
+        cafe_row = cafe_df[cafe_df["cafe_id"] == cafe_id].iloc[0]
+        cafe_map[cafe_id] = Cafe(name=cafe_row["cafe_name"], 
                                     location=cafe_row["city"] + ", " + cafe_row["country"], 
-                                    contact=cafe_row["contact_name"])
-    cafe_map[customer_id].set_coffee_demand(str(row["product_id"]), 
+                                    contact=cafe_row["proprietor_name"])
+    cafe_map[cafe_id].set_coffee_demand(str(row["product_id"]), 
                                             row["quantity"])
     income += sprice_df[(sprice_df.roasting_id == row["product_id"])].iloc[0]["price_per_unit"] * row["quantity"]
 
