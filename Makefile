@@ -1,7 +1,7 @@
 move:
-	mkdir -p data/database
-	mv *.csv data/database
-	mv *.sqlite data/database
+	mkdir -p opti_coffee/database
+	mv *.csv opti_coffee/database
+	mv *.sqlite opti_coffee/database
 
 db_gen:
 	python gen_db/gen_supply.py

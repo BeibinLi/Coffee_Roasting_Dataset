@@ -1,23 +1,92 @@
-{"city": "Paris", "country": "France"}
-{"city": "Tokyo", "country": "Japan"}
-{"city": "Sydney", "country": "Australia"}
-{"city": "Rio de Janeiro", "country": "Brazil"}
-{"city": "Cairo", "country": "Egypt"}
-{"city": "Zurich", "country": "Switzerland"}
-{"city": "Seattle", "country": "United States"}
-{"city": "Ann Arbor", "country": "United States"}
-{"city": "New Haven", "country": "United States"}
-{"city": "Mumbai", "country": "India"}
-{"city": "Havana", "country": "Cuba"}
-{"city": "Berlin", "country": "Germany"}
-{"city": "Cape Town", "country": "South Africa"}
-{"city": "London", "country": "United Kingdom"}
-{"city": "Beijing", "country": "China"}
-{"city": "Vienna", "country": "Austria"}
-{"city": "Taipei", "country": "China"}
-{"city": "Marrakech", "country": "Morocco"}
-{"city": "Athens", "country": "Greece"}
-{"city": "Shenzhen", "country": "China"}
-{"city": "Rome", "country": "Italy"}
-{"city": "Istanbul", "country": "Turkey"}
-{"city": "Buenos Aires", "country": "Argentina"}
+{
+    "city": "Paris",
+    "country": "France"
+}
+{
+    "city": "Tokyo",
+    "country": "Japan"
+}
+{
+    "city": "Sydney",
+    "country": "Australia"
+}
+{
+    "city": "Rio de Janeiro",
+    "country": "Brazil"
+}
+{
+    "city": "Cairo",
+    "country": "Egypt"
+}
+{
+    "city": "Zurich",
+    "country": "Switzerland"
+}
+{
+    "city": "Seattle",
+    "country": "United States"
+}
+{
+    "city": "Ann Arbor",
+    "country": "United States"
+}
+{
+    "city": "New Haven",
+    "country": "United States"
+}
+{
+    "city": "Mumbai",
+    "country": "India"
+}
+{
+    "city": "Havana",
+    "country": "Cuba"
+}
+{
+    "city": "Berlin",
+    "country": "Germany"
+}
+{
+    "city": "Cape Town",
+    "country": "South Africa"
+}
+{
+    "city": "London",
+    "country": "United Kingdom"
+}
+{
+    "city": "Beijing",
+    "country": "China"
+}
+{
+    "city": "Vienna",
+    "country": "Austria"
+}
+{
+    "city": "Taipei",
+    "country": "China"
+}
+{
+    "city": "Marrakech",
+    "country": "Morocco"
+}
+{
+    "city": "Athens",
+    "country": "Greece"
+}
+{
+    "city": "Shenzhen",
+    "country": "China"
+}
+{
+    "city": "Rome",
+    "country": "Italy"
+}
+{
+    "city": "Istanbul",
+    "country": "Turkey"
+}
+{
+    "city": "Buenos Aires",
+    "country": "Argentina"
+}

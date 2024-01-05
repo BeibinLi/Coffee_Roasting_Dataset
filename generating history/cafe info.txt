@@ -1,7 +1,0 @@
-I am creating a coffee roasting-related dataset for evaluation. Can you create a few sample cafe locations for me With details and descriptions about 300 words for each location.
-
----- locations ---
-Seattle Cafe,
-Redmond Coffee Co.
-Morning Cafe, Kirkland
-Great Coffee Coast, New York, 

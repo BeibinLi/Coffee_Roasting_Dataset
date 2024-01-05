@@ -1,1 +1,0 @@
-For the coffee roasting company called Roast & Brew, you need to generate its contact information. For example, the location, fax, phone of its marketing department, customer service department, recruiting department, etc. You need to generate more necessary departments for this company and their contact information.
